@@ -1,0 +1,175 @@
+2014-10-14 03:11:55,712 INFO zen.ZPLoader: Loading /opt/zenoss/ZenPacks/ZenPacks.zenoss.Notifications-1.0.1-py2.7.egg/ZenPacks/zenoss/Notifications/objects/objects.xml
+2014-10-14 03:11:55,714 INFO zen.AddToPack: End loading objects
+2014-10-14 03:11:55,714 INFO zen.AddToPack: Processing links
+2014-10-14 03:11:55,758 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-14 03:11:55,819 INFO zen.HookReportLoader: Loading reports from /opt/zenoss/ZenPacks/ZenPacks.zenoss.Notifications-1.0.1-py2.7.egg/ZenPacks/zenoss/Notifications/reports
+2014-10-14 05:24:34,106 INFO zen.ZPLoader: Loading /opt/zenoss/ZenPacks/ZenPacks.CTL.Zendesk-0.0.1-py2.7.egg/ZenPacks/CTL/Zendesk/objects/objects.xml
+2014-10-14 05:24:34,108 INFO zen.AddToPack: End loading objects
+2014-10-14 05:24:34,108 INFO zen.AddToPack: Processing links
+2014-10-14 05:24:34,159 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-14 05:24:34,223 INFO zen.HookReportLoader: Loading reports from /opt/zenoss/ZenPacks/ZenPacks.CTL.Zendesk-0.0.1-py2.7.egg/ZenPacks/CTL/Zendesk/reports
+2014-10-14 06:11:18 ERROR zen.ZenPackCMD: Error installing ZenPack ZenPacks.CTL.Zendesk-0.0.1-py2.7.egg
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenUtils/ZenPackCmd.py", line 237, in InstallEggAndZenPack
+    zpDists = InstallEgg(dmd, eggPath, link=link)
+  File "/opt/zenoss/Products/ZenUtils/ZenPackCmd.py", line 296, in InstallEgg
+    cwd=eggPath)
+  File "/opt/zenoss/lib/python2.7/subprocess.py", line 679, in __init__
+    errread, errwrite)
+  File "/opt/zenoss/lib/python2.7/subprocess.py", line 1228, in _execute_child
+    raise child_exception
+OSError: [Errno 20] Not a directory: '/home/zenoss/ZenPacks.CTL.Zendesk/dist/ZenPacks.CTL.Zendesk-0.0.1-py2.7.egg'
+2014-10-14 06:11:18 ERROR zen.ZenPackCmd: zenpack command failed
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 487, in <module>
+    zp.run()
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 164, in run
+    fromUI=self.options.fromui)
+  File "/opt/zenoss/Products/ZenUtils/ZenPackCmd.py", line 263, in InstallEggAndZenPack
+    raise e
+OSError: [Errno 20] Not a directory: '/home/zenoss/ZenPacks.CTL.Zendesk/dist/ZenPacks.CTL.Zendesk-0.0.1-py2.7.egg'
+2014-10-14 06:13:42 INFO zen.ZenPackCMD: Previous ZenPack exists with same name ZenPacks.CTL.Zendesk
+2014-10-14 06:13:42 INFO zen.ZenPackCMD: installing zenpack ZenPacks.CTL.Zendesk; launching process
+2014-10-14 06:13:49,272 INFO zen.ZPLoader: Loading /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/objects/objects.xml
+2014-10-14 06:13:49,274 INFO zen.AddToPack: End loading objects
+2014-10-14 06:13:49,274 INFO zen.AddToPack: Processing links
+2014-10-14 06:13:49,312 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-14 06:13:49,374 INFO zen.HookReportLoader: Loading reports from /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/reports
+2014-10-14 06:16:37,673 INFO zen.ZPLoader: Loading /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/objects/objects.xml
+2014-10-14 06:16:37,675 INFO zen.AddToPack: End loading objects
+2014-10-14 06:16:37,676 INFO zen.AddToPack: Processing links
+2014-10-14 06:16:37,714 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-14 06:16:37,776 INFO zen.HookReportLoader: Loading reports from /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/reports
+2014-10-14 07:59:01 INFO zen.ZenPackCMD: Previous ZenPack exists with same name ZenPacks.CTL.Zendesk
+2014-10-14 07:59:01 INFO zen.ZenPackCMD: installing zenpack ZenPacks.CTL.Zendesk; launching process
+2014-10-14 07:59:07,877 INFO zen.ZPLoader: Loading /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/objects/objects.xml
+2014-10-14 07:59:07,879 INFO zen.AddToPack: End loading objects
+2014-10-14 07:59:07,879 INFO zen.AddToPack: Processing links
+2014-10-14 07:59:07,951 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-14 07:59:08,013 INFO zen.HookReportLoader: Loading reports from /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/reports
+2014-10-16 00:49:49,470 INFO zen.ZPLoader: Loading /opt/zenoss/ZenPacks/ZenPacks.TwoNMS.Rancid-1.0.0-py2.7.egg/ZenPacks/TwoNMS/Rancid/objects/objects.xml
+2014-10-16 00:49:49,472 INFO zen.AddToPack: End loading objects
+2014-10-16 00:49:49,473 INFO zen.AddToPack: Processing links
+2014-10-16 00:49:49,521 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-16 00:49:49,597 INFO zen.HookReportLoader: Loading reports from /opt/zenoss/ZenPacks/ZenPacks.TwoNMS.Rancid-1.0.0-py2.7.egg/ZenPacks/TwoNMS/Rancid/reports
+2014-10-16 00:49:49,612 INFO zen.HookReportLoader: loading: /Rancid Reports/Revisions Count
+2014-10-16 00:49:49,723 INFO zen.rancidd: Starting installation of ZenPacks.TwoNMS.Rancid (rancid v2.3.8)
+2014-10-16 00:49:49,812 INFO zen.rancidd: Compiling rancid - this may take a few minutes
+2014-10-17 03:52:54 ERROR zen.ZenPackCmd: zenpack command failed
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 487, in <module>
+    zp.run()
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 213, in run
+    desc = zp.eggPath()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 1003, in eggPath
+    d = self.getDistribution()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 966, in getDistribution
+    return pkg_resources.get_distribution(self.id)
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 311, in get_distribution
+    if isinstance(dist,Requirement): dist = get_provider(dist)
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 197, in get_provider
+    return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 666, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 565, in resolve
+    raise DistributionNotFound(req)  # XXX put more info here
+DistributionNotFound: ZenPacks.CTL.Zendesk
+2014-10-17 03:53:47 ERROR zen.ZenPackCmd: zenpack command failed
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 487, in <module>
+    zp.run()
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 198, in run
+    removeZenPackQueuesExchanges(pack.path())
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 794, in path
+    module = self.getModule()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 993, in getModule
+    _, packEntry = self.getEntryPoint()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 976, in getEntryPoint
+    dist = self.getDistribution()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 966, in getDistribution
+    return pkg_resources.get_distribution(self.id)
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 311, in get_distribution
+    if isinstance(dist,Requirement): dist = get_provider(dist)
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 197, in get_provider
+    return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 666, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 565, in resolve
+    raise DistributionNotFound(req)  # XXX put more info here
+DistributionNotFound: ZenPacks.CTL.Zendesk
+2014-10-17 03:56:15 ERROR zen.ZenPackCmd: zenpack command failed
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 487, in <module>
+    zp.run()
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 213, in run
+    desc = zp.eggPath()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 1003, in eggPath
+    d = self.getDistribution()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 966, in getDistribution
+    return pkg_resources.get_distribution(self.id)
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 311, in get_distribution
+    if isinstance(dist,Requirement): dist = get_provider(dist)
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 197, in get_provider
+    return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 666, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 565, in resolve
+    raise DistributionNotFound(req)  # XXX put more info here
+DistributionNotFound: ZenPacks.CTL.Zendesk
+2014-10-17 03:56:45 INFO zen.ZenPackCMD: Previous ZenPack exists with same name ZenPacks.CTL.Zendesk
+2014-10-17 03:56:45 INFO zen.ZenPackCMD: installing zenpack ZenPacks.CTL.Zendesk; launching process
+2014-10-17 03:56:49 ERROR zen.ZenPackCMD: Error installing ZenPack ZenPacks.CTL.Zendesk
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenUtils/ZenPackCmd.py", line 247, in InstallEggAndZenPack
+    fromUI=fromUI)
+  File "/opt/zenoss/Products/ZenUtils/ZenPackCmd.py", line 477, in InstallDistAsZenPack
+    zenPack, deferFileDeletion, existing = transactional_actions()
+  File "/opt/zenoss/lib/python/ZODB/transact.py", line 44, in g
+    r = f(*args, **kwargs)
+  File "/opt/zenoss/Products/ZenUtils/ZenPackCmd.py", line 427, in transactional_actions
+    (p.returncode, err))
+ZenPackException: Error installing the egg (3): None
+2014-10-17 03:56:49 ERROR zen.ZenPackCmd: zenpack command failed
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 487, in <module>
+    zp.run()
+  File "/opt/zenoss/Products/ZenUtils/zenpack.py", line 164, in run
+    fromUI=self.options.fromui)
+  File "/opt/zenoss/Products/ZenUtils/ZenPackCmd.py", line 263, in InstallEggAndZenPack
+    raise e
+ZenPackException: Error installing the egg (3): None
+2014-10-17 04:02:22 ERROR zen.ZenPackCmd: zenpack stopped: ZenPacks.CTL.Zendesk does not appear to be a valid file or directory.
+2014-10-17 04:02:38 ERROR zen.ZenPackCmd: zenpack stopped: ZenPacks.CTL.Zendesk does not appear to be a valid file or directory.
+2014-10-17 04:02:59,010 INFO zen.ZPLoader: Loading /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/objects/objects.xml
+2014-10-17 04:02:59,012 INFO zen.AddToPack: End loading objects
+2014-10-17 04:02:59,013 INFO zen.AddToPack: Processing links
+2014-10-17 04:02:59,055 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-17 04:02:59,130 INFO zen.HookReportLoader: Loading reports from /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/reports
+2014-10-17 04:23:05 INFO zen.ZenPackCMD: Previous ZenPack exists with same name ZenPacks.CTL.Zendesk
+2014-10-17 04:23:06 INFO zen.ZenPackCMD: installing zenpack ZenPacks.CTL.Zendesk; launching process
+2014-10-17 04:23:12,828 INFO zen.ZPLoader: Loading /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/objects/objects.xml
+2014-10-17 04:23:12,830 INFO zen.AddToPack: End loading objects
+2014-10-17 04:23:12,830 INFO zen.AddToPack: Processing links
+2014-10-17 04:23:12,883 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-17 04:23:12,982 INFO zen.HookReportLoader: Loading reports from /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/reports
+2014-10-17 04:29:21 INFO zen.ZenPackCMD: Previous ZenPack exists with same name ZenPacks.CTL.Zendesk
+2014-10-17 04:29:21 INFO zen.ZenPackCMD: installing zenpack ZenPacks.CTL.Zendesk; launching process
+2014-10-17 04:29:28,065 INFO zen.ZPLoader: Loading /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/objects/objects.xml
+2014-10-17 04:29:28,067 INFO zen.AddToPack: End loading objects
+2014-10-17 04:29:28,068 INFO zen.AddToPack: Processing links
+2014-10-17 04:29:28,108 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-17 04:29:28,185 INFO zen.HookReportLoader: Loading reports from /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/reports
+2014-10-17 04:37:30 INFO zen.ZenPackCMD: Previous ZenPack exists with same name ZenPacks.CTL.Zendesk
+2014-10-17 04:37:31 INFO zen.ZenPackCMD: installing zenpack ZenPacks.CTL.Zendesk; launching process
+2014-10-17 04:37:37,611 INFO zen.ZPLoader: Loading /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/objects/objects.xml
+2014-10-17 04:37:37,613 INFO zen.AddToPack: End loading objects
+2014-10-17 04:37:37,614 INFO zen.AddToPack: Processing links
+2014-10-17 04:37:37,674 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-17 04:37:37,753 INFO zen.HookReportLoader: Loading reports from /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/reports
+2014-10-17 05:05:11 INFO zen.ZenPackCMD: Previous ZenPack exists with same name ZenPacks.CTL.Zendesk
+2014-10-17 05:05:12 INFO zen.ZenPackCMD: installing zenpack ZenPacks.CTL.Zendesk; launching process
+2014-10-17 05:05:18,590 INFO zen.ZPLoader: Loading /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/objects/objects.xml
+2014-10-17 05:05:18,592 INFO zen.AddToPack: End loading objects
+2014-10-17 05:05:18,592 INFO zen.AddToPack: Processing links
+2014-10-17 05:05:18,636 INFO zen.AddToPack: Loaded 0 objects into the ZODB database
+2014-10-17 05:05:18,717 INFO zen.HookReportLoader: Loading reports from /home/zenoss/ZenPacks.CTL.Zendesk/ZenPacks/CTL/Zendesk/reports

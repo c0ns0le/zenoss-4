@@ -1,0 +1,3 @@
+[zenoss.zenpacks]
+ZenPacks.TwoNMS.Rancid = ZenPacks.TwoNMS.Rancid
+

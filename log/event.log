@@ -1,0 +1,324 @@
+------
+2014-10-14T02:55:28 INFO ZServer HTTP server started at Tue Oct 14 02:55:28 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-14T02:55:32 INFO Zope Ready to handle requests
+------
+2014-10-14T02:56:48 INFO zen.Device device name 'localhost.localdomain' for ip ''
+------
+2014-10-14T02:56:48 INFO zen.Device localhost.localdomain's IP address has been set to ::1.
+------
+2014-10-14T02:56:48 INFO zen.Device setting tag to ''
+------
+2014-10-14T02:56:48 INFO zen.Device setting serialNumber to ''
+------
+2014-10-14T02:56:48 INFO zen.Device setting rackSlot to 0
+------
+2014-10-14T02:56:48 INFO zen.Device setting productionState to 1000
+------
+2014-10-14T02:56:48 INFO zen.Device setting priority to 3
+------
+2014-10-14T02:56:48 INFO zen.Device setting comments to ''
+------
+2014-10-14T02:56:48 INFO zen.Device setting performance monitor to 'localhost'
+------
+2014-10-14T02:56:48 ERROR zen.DeviceLoader [Errno -2] Name or service not known
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenModel/ZDeviceLoader.py", line 357, in loadDevice
+    title=title
+  File "/opt/zenoss/Products/ZenModel/ZDeviceLoader.py", line 149, in load_device
+    self.run_zendisc(deviceName, devicePath, performanceMonitor, productionState)
+  File "/opt/zenoss/Products/ZenModel/ZDeviceLoader.py", line 275, in run_zendisc
+    transaction.commit()
+  File "/opt/zenoss/lib/python/transaction/_manager.py", line 89, in commit
+    return self.get().commit()
+  File "/opt/zenoss/lib/python/transaction/_transaction.py", line 327, in commit
+    self._callBeforeCommitHooks()
+  File "/opt/zenoss/lib/python/transaction/_transaction.py", line 397, in _callBeforeCommitHooks
+    hook(*args, **kws)
+  File "/opt/zenoss/Products/ZenMessaging/queuemessaging/publisher.py", line 269, in beforeCompletionHook
+    dataManager = AmqpDataManager(self._queuePublisher.channel, tx._manager)
+  File "/opt/zenoss/Products/ZenMessaging/queuemessaging/publisher.py", line 420, in channel
+    return self._client.getChannel()
+  File "/opt/zenoss/lib/python/zenoss/protocols/amqp.py", line 90, in getChannel
+    ssl=self._connectionInfo.usessl)
+  File "/opt/zenoss/lib/python/zenoss/protocols/amqp.py", line 47, in __init__
+    super(Connection, self).__init__(*args, **kwargs)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/connection.py", line 129, in __init__
+    self.transport = create_transport(host, connect_timeout, ssl)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/transport.py", line 281, in create_transport
+    return TCPTransport(host, connect_timeout)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/transport.py", line 71, in __init__
+    for res in socket.getaddrinfo(host, port, 0, socket.SOCK_STREAM, socket.SOL_TCP):
+gaierror: [Errno -2] Name or service not known
+------
+2014-10-14T02:56:48 ERROR zen.DeviceLoader load of device localhost.localdomain failed
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenModel/ZDeviceLoader.py", line 357, in loadDevice
+    title=title
+  File "/opt/zenoss/Products/ZenModel/ZDeviceLoader.py", line 149, in load_device
+    self.run_zendisc(deviceName, devicePath, performanceMonitor, productionState)
+  File "/opt/zenoss/Products/ZenModel/ZDeviceLoader.py", line 275, in run_zendisc
+    transaction.commit()
+  File "/opt/zenoss/lib/python/transaction/_manager.py", line 89, in commit
+    return self.get().commit()
+  File "/opt/zenoss/lib/python/transaction/_transaction.py", line 327, in commit
+    self._callBeforeCommitHooks()
+  File "/opt/zenoss/lib/python/transaction/_transaction.py", line 397, in _callBeforeCommitHooks
+    hook(*args, **kws)
+  File "/opt/zenoss/Products/ZenMessaging/queuemessaging/publisher.py", line 269, in beforeCompletionHook
+    dataManager = AmqpDataManager(self._queuePublisher.channel, tx._manager)
+  File "/opt/zenoss/Products/ZenMessaging/queuemessaging/publisher.py", line 420, in channel
+    return self._client.getChannel()
+  File "/opt/zenoss/lib/python/zenoss/protocols/amqp.py", line 90, in getChannel
+    ssl=self._connectionInfo.usessl)
+  File "/opt/zenoss/lib/python/zenoss/protocols/amqp.py", line 47, in __init__
+    super(Connection, self).__init__(*args, **kwargs)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/connection.py", line 129, in __init__
+    self.transport = create_transport(host, connect_timeout, ssl)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/transport.py", line 281, in create_transport
+    return TCPTransport(host, connect_timeout)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/transport.py", line 71, in __init__
+    for res in socket.getaddrinfo(host, port, 0, socket.SOCK_STREAM, socket.SOL_TCP):
+gaierror: [Errno -2] Name or service not known
+------
+2014-10-14T02:56:48 ERROR zen.DeviceLoader Unable to add the device localhost.localdomain
+------
+2014-10-14T02:57:55 ERROR Zope.SiteErrorLog 1413269875.20.337044131131 http://ec2-54-211-251-78.compute-1.amazonaws.com:8080/zport/acl_users/cookieAuthHelper/login
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 134, in publish
+  Module Zope2.App.startup, line 301, in commit
+  Module transaction._manager, line 89, in commit
+  Module transaction._transaction, line 327, in commit
+  Module transaction._transaction, line 397, in _callBeforeCommitHooks
+  Module Products.ZenMessaging.queuemessaging.publisher, line 269, in beforeCompletionHook
+  Module Products.ZenMessaging.queuemessaging.publisher, line 420, in channel
+  Module zenoss.protocols.amqp, line 90, in getChannel
+  Module zenoss.protocols.amqp, line 47, in __init__
+  Module amqplib.client_0_8.connection, line 129, in __init__
+  Module amqplib.client_0_8.transport, line 281, in create_transport
+  Module amqplib.client_0_8.transport, line 71, in __init__
+gaierror: [Errno -2] Name or service not known
+------
+2014-10-14T02:59:40 INFO ZServer HTTP server started at Tue Oct 14 02:59:40 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-14T02:59:45 INFO Zope Ready to handle requests
+------
+2014-10-14T03:03:02 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-14T03:03:02 INFO Z2 Shutting down fast
+------
+2014-10-14T03:03:02 INFO ZServer closing HTTP to new connections
+------
+2014-10-14T03:03:15 INFO ZServer HTTP server started at Tue Oct 14 03:03:15 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-14T03:03:19 INFO Zope Ready to handle requests
+------
+2014-10-14T03:12:11 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-14T03:12:11 INFO Z2 Shutting down fast
+------
+2014-10-14T03:12:11 INFO ZServer closing HTTP to new connections
+------
+2014-10-14T03:12:24 INFO ZServer HTTP server started at Tue Oct 14 03:12:24 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-14T03:12:28 INFO Zope Ready to handle requests
+------
+2014-10-14T05:24:52 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-14T05:24:52 INFO Z2 Shutting down fast
+------
+2014-10-14T05:24:52 INFO ZServer closing HTTP to new connections
+------
+2014-10-14T05:25:05 INFO ZServer HTTP server started at Tue Oct 14 05:25:05 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-14T05:25:09 INFO Zope Ready to handle requests
+------
+2014-10-14T06:15:04 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-14T06:15:04 INFO Z2 Shutting down fast
+------
+2014-10-14T06:15:04 INFO ZServer closing HTTP to new connections
+------
+2014-10-14T06:15:16 INFO ZServer HTTP server started at Tue Oct 14 06:15:16 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-14T06:15:21 INFO Zope Ready to handle requests
+------
+2014-10-14T06:16:52 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-14T06:16:52 INFO Z2 Shutting down fast
+------
+2014-10-14T06:16:52 INFO ZServer closing HTTP to new connections
+------
+2014-10-14T06:17:05 INFO ZServer HTTP server started at Tue Oct 14 06:17:05 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-14T06:17:09 INFO Zope Ready to handle requests
+------
+2014-10-14T06:26:13 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-14T06:26:13 INFO Z2 Shutting down fast
+------
+2014-10-14T06:26:13 INFO ZServer closing HTTP to new connections
+------
+2014-10-14T06:26:26 INFO ZServer HTTP server started at Tue Oct 14 06:26:26 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-14T06:26:30 INFO Zope Ready to handle requests
+------
+2014-10-14T07:59:25 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-14T07:59:25 INFO Z2 Shutting down fast
+------
+2014-10-14T07:59:25 INFO ZServer closing HTTP to new connections
+------
+2014-10-14T07:59:37 INFO ZServer HTTP server started at Tue Oct 14 07:59:37 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-14T07:59:42 INFO Zope Ready to handle requests
+------
+2014-10-15T15:21:17 INFO relstorage Reconnecting load_conn: (2006, 'MySQL server has gone away')
+------
+2014-10-15T15:21:17 INFO relstorage Reconnected.
+------
+2014-10-15T15:21:17 INFO relstorage Reconnecting load_conn: (2006, 'MySQL server has gone away')
+------
+2014-10-15T15:21:17 INFO relstorage Reconnected.
+------
+2014-10-16T00:50:21 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-16T00:50:21 INFO Z2 Shutting down fast
+------
+2014-10-16T00:50:21 INFO ZServer closing HTTP to new connections
+------
+2014-10-16T00:50:35 INFO ZServer HTTP server started at Thu Oct 16 00:50:35 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-16T00:50:39 INFO Zope Ready to handle requests
+------
+2014-10-17T03:50:05 INFO relstorage Reconnecting load_conn: (2006, 'MySQL server has gone away')
+------
+2014-10-17T03:50:05 INFO relstorage Reconnected.
+------
+2014-10-17T03:50:05 INFO relstorage Reconnecting load_conn: (2006, 'MySQL server has gone away')
+------
+2014-10-17T03:50:05 INFO relstorage Reconnected.
+------
+2014-10-17T03:52:05 INFO relstorage Reconnecting store_conn: (2006, 'MySQL server has gone away')
+------
+2014-10-17T03:52:05 INFO relstorage Reconnected.
+------
+2014-10-17T03:52:22 INFO relstorage Reconnecting store_conn: (2006, 'MySQL server has gone away')
+------
+2014-10-17T03:52:22 INFO relstorage Reconnected.
+------
+2014-10-17T03:54:01 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-17T03:54:01 INFO Z2 Shutting down fast
+------
+2014-10-17T03:54:01 INFO ZServer closing HTTP to new connections
+------
+2014-10-17T03:54:14 INFO ZServer HTTP server started at Fri Oct 17 03:54:14 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-17T03:54:18 INFO Zope Ready to handle requests
+------
+2014-10-17T04:03:25 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-17T04:03:25 INFO Z2 Shutting down fast
+------
+2014-10-17T04:03:25 INFO ZServer closing HTTP to new connections
+------
+2014-10-17T04:03:37 INFO ZServer HTTP server started at Fri Oct 17 04:03:37 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-17T04:03:41 INFO Zope Ready to handle requests
+------
+2014-10-17T04:23:27 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-17T04:23:27 INFO Z2 Shutting down fast
+------
+2014-10-17T04:23:27 INFO ZServer closing HTTP to new connections
+------
+2014-10-17T04:23:40 INFO ZServer HTTP server started at Fri Oct 17 04:23:40 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-17T04:23:45 INFO Zope Ready to handle requests
+------
+2014-10-17T04:30:05 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-17T04:30:05 INFO Z2 Shutting down fast
+------
+2014-10-17T04:30:05 INFO ZServer closing HTTP to new connections
+------
+2014-10-17T04:30:18 INFO ZServer HTTP server started at Fri Oct 17 04:30:18 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-17T04:30:23 INFO Zope Ready to handle requests
+------
+2014-10-17T04:38:22 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-17T04:38:22 INFO Z2 Shutting down fast
+------
+2014-10-17T04:38:22 INFO ZServer closing HTTP to new connections
+------
+2014-10-17T04:38:35 INFO ZServer HTTP server started at Fri Oct 17 04:38:35 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-17T04:38:40 INFO Zope Ready to handle requests
+------
+2014-10-17T05:01:27 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-17T05:01:27 INFO Z2 Shutting down fast
+------
+2014-10-17T05:01:27 INFO ZServer closing HTTP to new connections
+------
+2014-10-17T05:01:41 INFO ZServer HTTP server started at Fri Oct 17 05:01:41 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-17T05:01:46 INFO Zope Ready to handle requests
+------
+2014-10-17T05:05:48 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-17T05:05:48 INFO Z2 Shutting down fast
+------
+2014-10-17T05:05:48 INFO ZServer closing HTTP to new connections
+------
+2014-10-17T05:06:01 INFO ZServer HTTP server started at Fri Oct 17 05:06:01 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-17T05:06:05 INFO Zope Ready to handle requests
+------
+2014-10-17T05:15:06 INFO SignalHandler Caught signal SIGTERM
+------
+2014-10-17T05:15:06 INFO Z2 Shutting down fast
+------
+2014-10-17T05:15:06 INFO ZServer closing HTTP to new connections
+------
+2014-10-17T05:15:19 INFO ZServer HTTP server started at Fri Oct 17 05:15:19 2014
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2014-10-17T05:15:23 INFO Zope Ready to handle requests

@@ -1,0 +1,10 @@
+#! /bin/sh
+
+PYTHON="/opt/zenoss/bin/python"
+INSTANCE_HOME="/opt/zenoss"
+[ -z "$CONFIG_FILE" ] && CONFIG_FILE="/opt/zenoss/etc/zope.conf"
+ZDCTL="/opt/zenoss/zopehome/zopectl"
+export INSTANCE_HOME
+export PYTHON
+
+exec "$ZDCTL" -C "$CONFIG_FILE" "$@"

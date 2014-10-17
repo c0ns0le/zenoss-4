@@ -1,0 +1,2 @@
+# create your own custom router.db files for devices which are not managed in Zenoss
+# create the same folder structure as exists in rancid/var and put your own router.db file inside

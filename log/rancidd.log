@@ -1,0 +1,40 @@
+2014-10-16 00:51:48,933 INFO zen.zenrancid: call init
+2014-10-16 00:51:48,938 INFO zen.zenrancid: Rancid will start at 02:00 (4140 seconds to go). Cycle time = 86400
+2014-10-16 01:07:10,220 INFO zen.rancidd: Deleting PID file /opt/zenoss/var/rancidd-localhost.pid ...
+2014-10-16 01:07:10,220 INFO zen.rancidd: Daemon rancidd shutting down
+2014-10-16 01:07:16,443 INFO zen.zenrancid: call init
+2014-10-16 01:07:16,447 INFO zen.zenrancid: Rancid will start at 02:00 (3180 seconds to go). Cycle time = 86400
+2014-10-16 02:00:16,454 INFO zen.zenrancid: main_loop started in rancidd
+2014-10-17 02:00:17,043 INFO zen.zenrancid: main_loop started in rancidd
+2014-10-17 03:53:57,336 INFO zen.rancidd: Deleting PID file /opt/zenoss/var/rancidd-localhost.pid ...
+2014-10-17 03:53:57,337 INFO zen.rancidd: Daemon rancidd shutting down
+2014-10-17 03:55:27,978 INFO zen.zenrancid: call init
+2014-10-17 03:55:27,983 INFO zen.zenrancid: Rancid will start at 02:00 (79500 seconds to go). Cycle time = 86400
+2014-10-17 04:03:20,709 INFO zen.rancidd: Deleting PID file /opt/zenoss/var/rancidd-localhost.pid ...
+2014-10-17 04:03:20,710 INFO zen.rancidd: Daemon rancidd shutting down
+2014-10-17 04:04:51,074 INFO zen.zenrancid: call init
+2014-10-17 04:04:51,079 INFO zen.zenrancid: Rancid will start at 02:00 (78960 seconds to go). Cycle time = 86400
+2014-10-17 04:23:23,928 INFO zen.rancidd: Deleting PID file /opt/zenoss/var/rancidd-localhost.pid ...
+2014-10-17 04:23:23,928 INFO zen.rancidd: Daemon rancidd shutting down
+2014-10-17 04:24:57,208 INFO zen.zenrancid: call init
+2014-10-17 04:24:57,213 INFO zen.zenrancid: Rancid will start at 02:00 (77760 seconds to go). Cycle time = 86400
+2014-10-17 04:30:01,807 INFO zen.rancidd: Deleting PID file /opt/zenoss/var/rancidd-localhost.pid ...
+2014-10-17 04:30:01,808 INFO zen.rancidd: Daemon rancidd shutting down
+2014-10-17 04:31:34,360 INFO zen.zenrancid: call init
+2014-10-17 04:31:34,365 INFO zen.zenrancid: Rancid will start at 02:00 (77340 seconds to go). Cycle time = 86400
+2014-10-17 04:38:18,134 INFO zen.rancidd: Deleting PID file /opt/zenoss/var/rancidd-localhost.pid ...
+2014-10-17 04:38:18,134 INFO zen.rancidd: Daemon rancidd shutting down
+2014-10-17 04:39:50,336 INFO zen.zenrancid: call init
+2014-10-17 04:39:50,341 INFO zen.zenrancid: Rancid will start at 02:00 (76860 seconds to go). Cycle time = 86400
+2014-10-17 05:01:23,622 INFO zen.rancidd: Deleting PID file /opt/zenoss/var/rancidd-localhost.pid ...
+2014-10-17 05:01:23,623 INFO zen.rancidd: Daemon rancidd shutting down
+2014-10-17 05:02:56,848 INFO zen.zenrancid: call init
+2014-10-17 05:02:56,853 INFO zen.zenrancid: Rancid will start at 02:00 (75480 seconds to go). Cycle time = 86400
+2014-10-17 05:05:44,867 INFO zen.rancidd: Deleting PID file /opt/zenoss/var/rancidd-localhost.pid ...
+2014-10-17 05:05:44,868 INFO zen.rancidd: Daemon rancidd shutting down
+2014-10-17 05:07:16,680 INFO zen.zenrancid: call init
+2014-10-17 05:07:16,685 INFO zen.zenrancid: Rancid will start at 02:00 (75180 seconds to go). Cycle time = 86400
+2014-10-17 05:15:02,228 INFO zen.rancidd: Deleting PID file /opt/zenoss/var/rancidd-localhost.pid ...
+2014-10-17 05:15:02,229 INFO zen.rancidd: Daemon rancidd shutting down
+2014-10-17 05:16:34,403 INFO zen.zenrancid: call init
+2014-10-17 05:16:34,408 INFO zen.zenrancid: Rancid will start at 02:00 (74640 seconds to go). Cycle time = 86400

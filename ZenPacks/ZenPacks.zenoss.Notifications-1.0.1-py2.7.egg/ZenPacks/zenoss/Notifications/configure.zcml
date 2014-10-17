@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+    <utility
+        factory=".actions.usercommand.UserCommandAction"
+        provides="Products.ZenModel.interfaces.IAction"
+        name="user_command"
+        />
+
+    <adapter provides=".interfaces.IUserCommandActionContentInfo"
+             for="Products.ZenModel.NotificationSubscription.NotificationSubscription"
+             factory=".info.UserActionContentInfo"
+             />
+
+    <utility
+        factory=".actions.altemailhost.AltEmailHostAction"
+        provides="Products.ZenModel.interfaces.IAction"
+        name="altemailhost"
+        />
+
+    <adapter provides=".interfaces.IAltEmailHostActionContentInfo"
+             for="Products.ZenModel.NotificationSubscription.NotificationSubscription"
+             factory=".info.AltEmailHostActionContentInfo"
+             />
+
+    <utility
+        factory=".actions.configurablesnmptrap.ConfigurableSnmpTrapAction"
+        provides="Products.ZenModel.interfaces.IAction"
+        name="configurabletrapaction"
+        />
+
+    <adapter provides=".interfaces.IConfigurableSnmpTrapActionContentInfo"
+             for="Products.ZenModel.NotificationSubscription.NotificationSubscription"
+             factory=".info.ConfigurableSnmpTrapActionContentInfo"
+             />
+
+</configure>
+

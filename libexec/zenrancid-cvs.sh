@@ -1,0 +1,1 @@
+/opt/zenoss/ZenPacks/ZenPacks.TwoNMS.Rancid-1.0.0-py2.7.egg/ZenPacks/TwoNMS/Rancid/libexec/zenrancid-cvs.sh

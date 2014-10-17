@@ -1,0 +1,6 @@
+/opt/zenoss/rancid/var/logs/ {
+missingok
+weekly
+rotate 2
+copytruncate
+}

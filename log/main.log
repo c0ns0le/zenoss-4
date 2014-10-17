@@ -1,0 +1,38 @@
+2014-10-14 02:56:19 ERROR zen.ZenossInfo: Failed to retrieve 'RabbitMQ' version data
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenModel/ZenossInfo.py", line 356, in getAllVersions
+    version = func()
+  File "/opt/zenoss/Products/ZenModel/ZenossInfo.py", line 54, in wrapper
+    return f(*args, **kwargs)
+  File "/opt/zenoss/Products/ZenModel/ZenossInfo.py", line 319, in getRabbitMQVersion
+    return Version.parse("RabbitMQ %s" % ZenAmqp().getVersion())
+  File "/opt/zenoss/Products/ZenUtils/qverify.py", line 87, in getVersion
+    with closing(self.getConnection()) as conn:
+  File "/opt/zenoss/Products/ZenUtils/qverify.py", line 84, in getConnection
+    return Connection(**settings)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/connection.py", line 129, in __init__
+    self.transport = create_transport(host, connect_timeout, ssl)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/transport.py", line 281, in create_transport
+    return TCPTransport(host, connect_timeout)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/transport.py", line 71, in __init__
+    for res in socket.getaddrinfo(host, port, 0, socket.SOCK_STREAM, socket.SOL_TCP):
+gaierror: [Errno -2] Name or service not known
+2014-10-14 03:00:31 ERROR zen.ZenossInfo: Failed to retrieve 'RabbitMQ' version data
+Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenModel/ZenossInfo.py", line 356, in getAllVersions
+    version = func()
+  File "/opt/zenoss/Products/ZenModel/ZenossInfo.py", line 54, in wrapper
+    return f(*args, **kwargs)
+  File "/opt/zenoss/Products/ZenModel/ZenossInfo.py", line 319, in getRabbitMQVersion
+    return Version.parse("RabbitMQ %s" % ZenAmqp().getVersion())
+  File "/opt/zenoss/Products/ZenUtils/qverify.py", line 87, in getVersion
+    with closing(self.getConnection()) as conn:
+  File "/opt/zenoss/Products/ZenUtils/qverify.py", line 84, in getConnection
+    return Connection(**settings)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/connection.py", line 129, in __init__
+    self.transport = create_transport(host, connect_timeout, ssl)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/transport.py", line 281, in create_transport
+    return TCPTransport(host, connect_timeout)
+  File "/opt/zenoss/lib/python/amqplib/client_0_8/transport.py", line 71, in __init__
+    for res in socket.getaddrinfo(host, port, 0, socket.SOCK_STREAM, socket.SOL_TCP):
+gaierror: [Errno -2] Name or service not known

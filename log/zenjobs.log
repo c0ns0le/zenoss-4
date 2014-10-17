@@ -1,0 +1,448 @@
+2014-10-14 02:55:37,904 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-14 02:55:38,031 INFO multiprocessing: child process calling self.run()
+2014-10-14 02:55:38,094 INFO multiprocessing: child process calling self.run()
+2014-10-14 02:55:38,111 INFO celery.redirected: celery@zenoss has started.
+2014-10-14 02:59:27,602 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-14 02:59:28,239 INFO multiprocessing: process shutting down
+2014-10-14 02:59:50,461 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-14 02:59:50,533 INFO multiprocessing: child process calling self.run()
+2014-10-14 02:59:50,606 INFO multiprocessing: child process calling self.run()
+2014-10-14 02:59:50,620 INFO celery.redirected: celery@zenoss has started.
+2014-10-14 03:03:00,791 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-14 03:03:01,734 INFO multiprocessing: process shutting down
+2014-10-14 03:03:24,825 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-14 03:03:24,904 INFO multiprocessing: child process calling self.run()
+2014-10-14 03:03:24,945 INFO multiprocessing: child process calling self.run()
+2014-10-14 03:03:24,959 INFO celery.redirected: celery@zenoss has started.
+2014-10-14 03:12:10,104 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-14 03:12:10,209 INFO multiprocessing: process shutting down
+2014-10-14 03:12:34,528 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-14 03:12:34,611 INFO multiprocessing: child process calling self.run()
+2014-10-14 03:12:34,684 INFO multiprocessing: child process calling self.run()
+2014-10-14 03:12:34,704 INFO celery.redirected: celery@zenoss has started.
+2014-10-14 05:24:51,390 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-14 05:24:52,157 INFO multiprocessing: process shutting down
+2014-10-14 05:25:15,307 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-14 05:25:15,399 INFO multiprocessing: child process calling self.run()
+2014-10-14 05:25:15,458 INFO multiprocessing: child process calling self.run()
+2014-10-14 05:25:15,487 INFO celery.redirected: celery@zenoss has started.
+2014-10-14 06:15:02,911 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-14 06:15:03,819 INFO multiprocessing: process shutting down
+2014-10-14 06:15:27,421 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-14 06:15:27,513 INFO multiprocessing: child process calling self.run()
+2014-10-14 06:15:27,586 INFO multiprocessing: child process calling self.run()
+2014-10-14 06:15:27,604 INFO celery.redirected: celery@zenoss has started.
+2014-10-14 06:16:51,160 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-14 06:16:51,672 INFO multiprocessing: process shutting down
+2014-10-14 06:17:15,724 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-14 06:17:15,811 INFO multiprocessing: child process calling self.run()
+2014-10-14 06:17:15,867 INFO multiprocessing: child process calling self.run()
+2014-10-14 06:17:15,883 INFO celery.redirected: celery@zenoss has started.
+2014-10-14 06:26:12,500 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-14 06:26:13,146 INFO multiprocessing: process shutting down
+2014-10-14 06:26:36,342 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-14 06:26:36,432 INFO multiprocessing: child process calling self.run()
+2014-10-14 06:26:36,499 INFO multiprocessing: child process calling self.run()
+2014-10-14 06:26:36,518 INFO celery.redirected: celery@zenoss has started.
+2014-10-14 07:59:23,831 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-14 07:59:23,996 INFO multiprocessing: process shutting down
+2014-10-14 07:59:48,629 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-14 07:59:48,716 INFO multiprocessing: child process calling self.run()
+2014-10-14 07:59:48,788 INFO multiprocessing: child process calling self.run()
+2014-10-14 07:59:48,814 INFO celery.redirected: celery@zenoss has started.
+2014-10-16 00:50:20,221 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-16 00:50:20,739 INFO multiprocessing: process shutting down
+2014-10-16 00:50:45,898 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-16 00:50:45,991 INFO multiprocessing: child process calling self.run()
+2014-10-16 00:50:46,033 INFO multiprocessing: child process calling self.run()
+2014-10-16 00:50:46,064 INFO celery.redirected: celery@zenoss has started.
+2014-10-17 03:54:00,056 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-17 03:54:00,407 INFO multiprocessing: process shutting down
+2014-10-17 03:54:24,539 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-17 03:54:24,632 INFO multiprocessing: child process calling self.run()
+2014-10-17 03:54:24,704 INFO multiprocessing: child process calling self.run()
+2014-10-17 03:54:24,719 INFO celery.redirected: celery@zenoss has started.
+2014-10-17 04:03:23,492 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-17 04:03:23,985 INFO multiprocessing: process shutting down
+2014-10-17 04:03:47,543 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-17 04:03:47,638 INFO multiprocessing: child process calling self.run()
+2014-10-17 04:03:47,701 INFO multiprocessing: child process calling self.run()
+2014-10-17 04:03:47,732 INFO celery.redirected: celery@zenoss has started.
+2014-10-17 04:23:26,511 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-17 04:23:27,287 INFO multiprocessing: process shutting down
+2014-10-17 04:23:51,411 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-17 04:23:51,505 INFO multiprocessing: child process calling self.run()
+2014-10-17 04:23:51,549 INFO multiprocessing: child process calling self.run()
+2014-10-17 04:23:51,570 INFO celery.redirected: celery@zenoss has started.
+2014-10-17 04:30:04,425 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-17 04:30:04,764 INFO multiprocessing: process shutting down
+2014-10-17 04:30:29,728 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-17 04:30:29,818 INFO multiprocessing: child process calling self.run()
+2014-10-17 04:30:29,876 INFO multiprocessing: child process calling self.run()
+2014-10-17 04:30:29,914 INFO celery.redirected: celery@zenoss has started.
+2014-10-17 04:38:20,725 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-17 04:38:21,151 INFO multiprocessing: process shutting down
+2014-10-17 04:38:46,267 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-17 04:38:46,372 INFO multiprocessing: child process calling self.run()
+2014-10-17 04:38:46,443 INFO multiprocessing: child process calling self.run()
+2014-10-17 04:38:46,467 INFO celery.redirected: celery@zenoss has started.
+2014-10-17 05:01:26,138 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-17 05:01:27,104 INFO multiprocessing: process shutting down
+2014-10-17 05:01:52,894 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-17 05:01:52,982 INFO multiprocessing: child process calling self.run()
+2014-10-17 05:01:53,052 INFO multiprocessing: child process calling self.run()
+2014-10-17 05:01:53,089 INFO celery.redirected: celery@zenoss has started.
+2014-10-17 05:05:47,440 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-17 05:05:48,234 INFO multiprocessing: process shutting down
+2014-10-17 05:06:12,421 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-17 05:06:12,542 INFO multiprocessing: child process calling self.run()
+2014-10-17 05:06:12,603 INFO multiprocessing: child process calling self.run()
+2014-10-17 05:06:12,629 INFO celery.redirected: celery@zenoss has started.
+2014-10-17 05:15:05,285 INFO celery.redirected: celeryd: Warm shutdown (MainProcess)
+2014-10-17 05:15:05,907 INFO multiprocessing: process shutting down
+2014-10-17 05:15:30,337 INFO celery.redirected: -------------- celery@zenoss v2.6.0a3
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://zenoss@localhost:5672//zenoss
+- ** ----------   . loader:      Products.ZenUtils.celeryintegration.loader.ZenossLoader
+- ** ----------   . logfile:     /opt/zenoss/log/zenjobs.log@INFO
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+                  
+
+[Tasks]
+  . Products.Jobber.facade.FacadeMethodJob
+  . Products.Jobber.jobs.SubprocessJob
+  . Products.Jobber.zenmodel.DeviceSetLocalRolesJob
+  . Products.ZenModel.IpNetwork.AutoDiscoveryJob
+  . Products.ZenModel.ZDeviceLoader.DeviceCreationJob
+2014-10-17 05:15:30,413 INFO multiprocessing: child process calling self.run()
+2014-10-17 05:15:30,472 INFO multiprocessing: child process calling self.run()
+2014-10-17 05:15:30,497 INFO celery.redirected: celery@zenoss has started.

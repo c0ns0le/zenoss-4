@@ -1,0 +1,280 @@
+2014-10-17 03:54:03.930:INFO:zeneventserver:Closing Spring root WebApplicationContext
+2014-10-17 03:54:04.064:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 03:54:05.147:INFO:oejdp.ScanningAppProvider:Deployment monitor /opt/zenoss/webapps at interval 0
+2014-10-17 03:54:05.155:INFO:oejd.DeploymentManager:Deployable added: /opt/zenoss/webapps/zeneventserver
+03:54:05,525 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/opt/zenoss/etc/zeneventserver/logback.xml] at [file:/opt/zenoss/etc/zeneventserver/logback.xml]
+03:54:05,611 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+03:54:05,613 |-INFO in ch.qos.logback.classic.turbo.ReconfigureOnChangeFilter@42b02928 - Will scan for changes in file [/opt/zenoss/etc/zeneventserver/logback.xml] every 60 seconds. 
+03:54:05,613 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+03:54:05,626 |-INFO in ch.qos.logback.core.joran.action.StatusListenerAction - Adding status listener of type [ch.qos.logback.core.status.OnConsoleStatusListener]
+03:54:06,180 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+03:54:06,186 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [APPENDER]
+03:54:06,239 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@6446d228 - No compression will be used
+03:54:06,248 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+03:54:06,274 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - Active log file name: /opt/zenoss/log/zeneventserver.log
+03:54:06,275 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - File property is set to [/opt/zenoss/log/zeneventserver.log]
+03:54:06,276 |-INFO in ch.qos.logback.classic.joran.action.ContextNameAction - Setting logger context name as [zeneventserver]
+03:54:06,276 |-INFO in ch.qos.logback.classic.joran.action.JMXConfiguratorAction - begin
+03:54:06,337 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+03:54:06,337 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to true
+03:54:06,337 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to WARN
+03:54:06,337 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ch.qos.logback] to true
+03:54:06,337 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zenoss] to INFO
+03:54:06,337 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.zenoss] to true
+03:54:06,338 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.zenoss] to INFO
+03:54:06,338 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.zenoss] to true
+03:54:06,338 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+03:54:06,338 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [APPENDER] to Logger[ROOT]
+2014-10-17 03:54:06.627:INFO:zeneventserver:Initializing Spring root WebApplicationContext
+2014-10-17 03:54:11.512:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 03:54:11.608:INFO:oejs.AbstractConnector:Started SelectChannelConnector@localhost:8084 STARTING
+2014-10-17 04:03:27.270:INFO:zeneventserver:Closing Spring root WebApplicationContext
+2014-10-17 04:03:27.313:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 04:03:28.465:INFO:oejdp.ScanningAppProvider:Deployment monitor /opt/zenoss/webapps at interval 0
+2014-10-17 04:03:28.473:INFO:oejd.DeploymentManager:Deployable added: /opt/zenoss/webapps/zeneventserver
+04:03:28,825 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/opt/zenoss/etc/zeneventserver/logback.xml] at [file:/opt/zenoss/etc/zeneventserver/logback.xml]
+04:03:28,899 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+04:03:28,900 |-INFO in ch.qos.logback.classic.turbo.ReconfigureOnChangeFilter@7aae3364 - Will scan for changes in file [/opt/zenoss/etc/zeneventserver/logback.xml] every 60 seconds. 
+04:03:28,900 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+04:03:28,907 |-INFO in ch.qos.logback.core.joran.action.StatusListenerAction - Adding status listener of type [ch.qos.logback.core.status.OnConsoleStatusListener]
+04:03:29,371 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+04:03:29,377 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [APPENDER]
+04:03:29,431 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@195428dd - No compression will be used
+04:03:29,441 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+04:03:29,467 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - Active log file name: /opt/zenoss/log/zeneventserver.log
+04:03:29,467 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - File property is set to [/opt/zenoss/log/zeneventserver.log]
+04:03:29,469 |-INFO in ch.qos.logback.classic.joran.action.ContextNameAction - Setting logger context name as [zeneventserver]
+04:03:29,469 |-INFO in ch.qos.logback.classic.joran.action.JMXConfiguratorAction - begin
+04:03:29,534 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+04:03:29,534 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to true
+04:03:29,534 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to WARN
+04:03:29,534 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ch.qos.logback] to true
+04:03:29,534 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zenoss] to INFO
+04:03:29,534 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.zenoss] to true
+04:03:29,534 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.zenoss] to INFO
+04:03:29,534 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.zenoss] to true
+04:03:29,535 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+04:03:29,535 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [APPENDER] to Logger[ROOT]
+2014-10-17 04:03:29.872:INFO:zeneventserver:Initializing Spring root WebApplicationContext
+2014-10-17 04:03:34.829:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 04:03:34.920:INFO:oejs.AbstractConnector:Started SelectChannelConnector@localhost:8084 STARTING
+2014-10-17 04:23:30.336:INFO:zeneventserver:Closing Spring root WebApplicationContext
+2014-10-17 04:23:30.383:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 04:23:31.584:INFO:oejdp.ScanningAppProvider:Deployment monitor /opt/zenoss/webapps at interval 0
+2014-10-17 04:23:31.593:INFO:oejd.DeploymentManager:Deployable added: /opt/zenoss/webapps/zeneventserver
+04:23:32,014 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/opt/zenoss/etc/zeneventserver/logback.xml] at [file:/opt/zenoss/etc/zeneventserver/logback.xml]
+04:23:32,088 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+04:23:32,089 |-INFO in ch.qos.logback.classic.turbo.ReconfigureOnChangeFilter@2f87c55c - Will scan for changes in file [/opt/zenoss/etc/zeneventserver/logback.xml] every 60 seconds. 
+04:23:32,089 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+04:23:32,103 |-INFO in ch.qos.logback.core.joran.action.StatusListenerAction - Adding status listener of type [ch.qos.logback.core.status.OnConsoleStatusListener]
+04:23:32,539 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+04:23:32,545 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [APPENDER]
+04:23:32,598 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@195428dd - No compression will be used
+04:23:32,611 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+04:23:32,641 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - Active log file name: /opt/zenoss/log/zeneventserver.log
+04:23:32,641 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - File property is set to [/opt/zenoss/log/zeneventserver.log]
+04:23:32,643 |-INFO in ch.qos.logback.classic.joran.action.ContextNameAction - Setting logger context name as [zeneventserver]
+04:23:32,643 |-INFO in ch.qos.logback.classic.joran.action.JMXConfiguratorAction - begin
+04:23:32,705 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+04:23:32,705 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to true
+04:23:32,705 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to WARN
+04:23:32,705 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ch.qos.logback] to true
+04:23:32,705 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zenoss] to INFO
+04:23:32,705 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.zenoss] to true
+04:23:32,705 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.zenoss] to INFO
+04:23:32,705 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.zenoss] to true
+04:23:32,706 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+04:23:32,706 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [APPENDER] to Logger[ROOT]
+2014-10-17 04:23:33.023:INFO:zeneventserver:Initializing Spring root WebApplicationContext
+2014-10-17 04:23:37.940:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 04:23:38.020:INFO:oejs.AbstractConnector:Started SelectChannelConnector@localhost:8084 STARTING
+2014-10-17 04:26:00.945:WARN:oejs.Response:Committed before 500 org.eclipse.jetty.io.EofException
+2014-10-17 04:26:00.946:WARN:oejs.ServletHandler:/zeneventserver/api/1.0/events/
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1059)
+	at org.eclipse.jetty.server.Response.sendError(Response.java:276)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletResponseWrapper.sendError(HttpServletResponseWrapper.java:71)
+	at org.jboss.resteasy.core.SynchronousDispatcher.handleFailure(SynchronousDispatcher.java:247)
+	at org.jboss.resteasy.core.SynchronousDispatcher.handleWriterException(SynchronousDispatcher.java:374)
+	at org.jboss.resteasy.core.SynchronousDispatcher.handleException(SynchronousDispatcher.java:203)
+	at org.jboss.resteasy.core.SynchronousDispatcher.handleWriteResponseException(SynchronousDispatcher.java:188)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:499)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:120)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:200)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:48)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:480)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:520)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:940)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:874)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:345)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:936)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:801)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:224)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:52)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Unknown Source)
+2014-10-17 04:30:08.151:INFO:zeneventserver:Closing Spring root WebApplicationContext
+2014-10-17 04:30:08.192:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 04:30:09.456:INFO:oejdp.ScanningAppProvider:Deployment monitor /opt/zenoss/webapps at interval 0
+2014-10-17 04:30:09.466:INFO:oejd.DeploymentManager:Deployable added: /opt/zenoss/webapps/zeneventserver
+04:30:09,891 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/opt/zenoss/etc/zeneventserver/logback.xml] at [file:/opt/zenoss/etc/zeneventserver/logback.xml]
+04:30:09,965 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+04:30:09,966 |-INFO in ch.qos.logback.classic.turbo.ReconfigureOnChangeFilter@7aae3364 - Will scan for changes in file [/opt/zenoss/etc/zeneventserver/logback.xml] every 60 seconds. 
+04:30:09,966 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+04:30:09,973 |-INFO in ch.qos.logback.core.joran.action.StatusListenerAction - Adding status listener of type [ch.qos.logback.core.status.OnConsoleStatusListener]
+04:30:10,494 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+04:30:10,499 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [APPENDER]
+04:30:10,571 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@195428dd - No compression will be used
+04:30:10,580 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+04:30:10,609 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - Active log file name: /opt/zenoss/log/zeneventserver.log
+04:30:10,609 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - File property is set to [/opt/zenoss/log/zeneventserver.log]
+04:30:10,611 |-INFO in ch.qos.logback.classic.joran.action.ContextNameAction - Setting logger context name as [zeneventserver]
+04:30:10,611 |-INFO in ch.qos.logback.classic.joran.action.JMXConfiguratorAction - begin
+04:30:10,679 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+04:30:10,679 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to true
+04:30:10,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to WARN
+04:30:10,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ch.qos.logback] to true
+04:30:10,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zenoss] to INFO
+04:30:10,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.zenoss] to true
+04:30:10,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.zenoss] to INFO
+04:30:10,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.zenoss] to true
+04:30:10,680 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+04:30:10,681 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [APPENDER] to Logger[ROOT]
+2014-10-17 04:30:11.007:INFO:zeneventserver:Initializing Spring root WebApplicationContext
+2014-10-17 04:30:15.754:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 04:30:15.825:INFO:oejs.AbstractConnector:Started SelectChannelConnector@localhost:8084 STARTING
+2014-10-17 04:38:24.509:INFO:zeneventserver:Closing Spring root WebApplicationContext
+2014-10-17 04:38:24.553:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 04:38:25.770:INFO:oejdp.ScanningAppProvider:Deployment monitor /opt/zenoss/webapps at interval 0
+2014-10-17 04:38:25.779:INFO:oejd.DeploymentManager:Deployable added: /opt/zenoss/webapps/zeneventserver
+04:38:26,126 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/opt/zenoss/etc/zeneventserver/logback.xml] at [file:/opt/zenoss/etc/zeneventserver/logback.xml]
+04:38:26,201 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+04:38:26,202 |-INFO in ch.qos.logback.classic.turbo.ReconfigureOnChangeFilter@7aae3364 - Will scan for changes in file [/opt/zenoss/etc/zeneventserver/logback.xml] every 60 seconds. 
+04:38:26,202 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+04:38:26,209 |-INFO in ch.qos.logback.core.joran.action.StatusListenerAction - Adding status listener of type [ch.qos.logback.core.status.OnConsoleStatusListener]
+04:38:26,675 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+04:38:26,680 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [APPENDER]
+04:38:26,746 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@6446d228 - No compression will be used
+04:38:26,757 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+04:38:26,787 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - Active log file name: /opt/zenoss/log/zeneventserver.log
+04:38:26,787 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - File property is set to [/opt/zenoss/log/zeneventserver.log]
+04:38:26,789 |-INFO in ch.qos.logback.classic.joran.action.ContextNameAction - Setting logger context name as [zeneventserver]
+04:38:26,789 |-INFO in ch.qos.logback.classic.joran.action.JMXConfiguratorAction - begin
+04:38:26,862 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+04:38:26,862 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to true
+04:38:26,862 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to WARN
+04:38:26,862 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ch.qos.logback] to true
+04:38:26,863 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zenoss] to INFO
+04:38:26,863 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.zenoss] to true
+04:38:26,863 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.zenoss] to INFO
+04:38:26,863 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.zenoss] to true
+04:38:26,863 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+04:38:26,863 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [APPENDER] to Logger[ROOT]
+2014-10-17 04:38:27.178:INFO:zeneventserver:Initializing Spring root WebApplicationContext
+2014-10-17 04:38:32.284:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 04:38:32.378:INFO:oejs.AbstractConnector:Started SelectChannelConnector@localhost:8084 STARTING
+2014-10-17 05:01:30.398:INFO:zeneventserver:Closing Spring root WebApplicationContext
+2014-10-17 05:01:30.465:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 05:01:31.944:INFO:oejdp.ScanningAppProvider:Deployment monitor /opt/zenoss/webapps at interval 0
+2014-10-17 05:01:31.952:INFO:oejd.DeploymentManager:Deployable added: /opt/zenoss/webapps/zeneventserver
+05:01:32,482 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/opt/zenoss/etc/zeneventserver/logback.xml] at [file:/opt/zenoss/etc/zeneventserver/logback.xml]
+05:01:32,559 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+05:01:32,560 |-INFO in ch.qos.logback.classic.turbo.ReconfigureOnChangeFilter@5d3e754f - Will scan for changes in file [/opt/zenoss/etc/zeneventserver/logback.xml] every 60 seconds. 
+05:01:32,560 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+05:01:32,575 |-INFO in ch.qos.logback.core.joran.action.StatusListenerAction - Adding status listener of type [ch.qos.logback.core.status.OnConsoleStatusListener]
+05:01:33,226 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+05:01:33,231 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [APPENDER]
+05:01:33,313 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@30e34726 - No compression will be used
+05:01:33,323 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+05:01:33,349 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - Active log file name: /opt/zenoss/log/zeneventserver.log
+05:01:33,349 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - File property is set to [/opt/zenoss/log/zeneventserver.log]
+05:01:33,351 |-INFO in ch.qos.logback.classic.joran.action.ContextNameAction - Setting logger context name as [zeneventserver]
+05:01:33,351 |-INFO in ch.qos.logback.classic.joran.action.JMXConfiguratorAction - begin
+05:01:33,412 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+05:01:33,412 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to true
+05:01:33,412 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to WARN
+05:01:33,412 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ch.qos.logback] to true
+05:01:33,412 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zenoss] to INFO
+05:01:33,412 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.zenoss] to true
+05:01:33,413 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.zenoss] to INFO
+05:01:33,413 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.zenoss] to true
+05:01:33,413 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+05:01:33,413 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [APPENDER] to Logger[ROOT]
+2014-10-17 05:01:33.686:INFO:zeneventserver:Initializing Spring root WebApplicationContext
+2014-10-17 05:01:38.661:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 05:01:38.756:INFO:oejs.AbstractConnector:Started SelectChannelConnector@localhost:8084 STARTING
+2014-10-17 05:05:51.042:INFO:zeneventserver:Closing Spring root WebApplicationContext
+2014-10-17 05:05:51.081:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 05:05:52.275:INFO:oejdp.ScanningAppProvider:Deployment monitor /opt/zenoss/webapps at interval 0
+2014-10-17 05:05:52.283:INFO:oejd.DeploymentManager:Deployable added: /opt/zenoss/webapps/zeneventserver
+05:05:52,688 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/opt/zenoss/etc/zeneventserver/logback.xml] at [file:/opt/zenoss/etc/zeneventserver/logback.xml]
+05:05:52,762 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+05:05:52,763 |-INFO in ch.qos.logback.classic.turbo.ReconfigureOnChangeFilter@7aae3364 - Will scan for changes in file [/opt/zenoss/etc/zeneventserver/logback.xml] every 60 seconds. 
+05:05:52,763 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+05:05:52,770 |-INFO in ch.qos.logback.core.joran.action.StatusListenerAction - Adding status listener of type [ch.qos.logback.core.status.OnConsoleStatusListener]
+05:05:53,213 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+05:05:53,219 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [APPENDER]
+05:05:53,278 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@6446d228 - No compression will be used
+05:05:53,288 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+05:05:53,314 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - Active log file name: /opt/zenoss/log/zeneventserver.log
+05:05:53,314 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - File property is set to [/opt/zenoss/log/zeneventserver.log]
+05:05:53,316 |-INFO in ch.qos.logback.classic.joran.action.ContextNameAction - Setting logger context name as [zeneventserver]
+05:05:53,316 |-INFO in ch.qos.logback.classic.joran.action.JMXConfiguratorAction - begin
+05:05:53,377 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+05:05:53,377 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to true
+05:05:53,378 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to WARN
+05:05:53,378 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ch.qos.logback] to true
+05:05:53,378 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zenoss] to INFO
+05:05:53,378 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.zenoss] to true
+05:05:53,378 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.zenoss] to INFO
+05:05:53,378 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.zenoss] to true
+05:05:53,378 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+05:05:53,378 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [APPENDER] to Logger[ROOT]
+2014-10-17 05:05:53.675:INFO:zeneventserver:Initializing Spring root WebApplicationContext
+2014-10-17 05:05:58.314:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 05:05:58.410:INFO:oejs.AbstractConnector:Started SelectChannelConnector@localhost:8084 STARTING
+2014-10-17 05:15:09.160:INFO:zeneventserver:Closing Spring root WebApplicationContext
+2014-10-17 05:15:09.227:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 05:15:10.422:INFO:oejdp.ScanningAppProvider:Deployment monitor /opt/zenoss/webapps at interval 0
+2014-10-17 05:15:10.431:INFO:oejd.DeploymentManager:Deployable added: /opt/zenoss/webapps/zeneventserver
+05:15:10,800 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/opt/zenoss/etc/zeneventserver/logback.xml] at [file:/opt/zenoss/etc/zeneventserver/logback.xml]
+05:15:10,886 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+05:15:10,887 |-INFO in ch.qos.logback.classic.turbo.ReconfigureOnChangeFilter@7aae3364 - Will scan for changes in file [/opt/zenoss/etc/zeneventserver/logback.xml] every 60 seconds. 
+05:15:10,887 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+05:15:10,902 |-INFO in ch.qos.logback.core.joran.action.StatusListenerAction - Adding status listener of type [ch.qos.logback.core.status.OnConsoleStatusListener]
+05:15:11,356 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+05:15:11,380 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [APPENDER]
+05:15:11,450 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@658f7386 - No compression will be used
+05:15:11,462 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+05:15:11,492 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - Active log file name: /opt/zenoss/log/zeneventserver.log
+05:15:11,492 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[APPENDER] - File property is set to [/opt/zenoss/log/zeneventserver.log]
+05:15:11,494 |-INFO in ch.qos.logback.classic.joran.action.ContextNameAction - Setting logger context name as [zeneventserver]
+05:15:11,494 |-INFO in ch.qos.logback.classic.joran.action.JMXConfiguratorAction - begin
+05:15:11,567 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to WARN
+05:15:11,567 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to true
+05:15:11,567 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to WARN
+05:15:11,567 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ch.qos.logback] to true
+05:15:11,567 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zenoss] to INFO
+05:15:11,567 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.zenoss] to true
+05:15:11,567 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.zenoss] to INFO
+05:15:11,567 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.zenoss] to true
+05:15:11,568 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+05:15:11,568 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [APPENDER] to Logger[ROOT]
+2014-10-17 05:15:11.958:INFO:zeneventserver:Initializing Spring root WebApplicationContext
+2014-10-17 05:15:16.690:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/zeneventserver,file:/opt/zenoss/webapps/zeneventserver/},/opt/zenoss/webapps/zeneventserver
+2014-10-17 05:15:16.788:INFO:oejs.AbstractConnector:Started SelectChannelConnector@localhost:8084 STARTING

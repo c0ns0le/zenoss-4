@@ -1,0 +1,54 @@
+-------------------------
+Fresh install pre steps
+Tue Oct 14 02:54:41 EDT 2014
+Linux zenoss 2.6.32-431.17.1.el6.x86_64 #1 SMP Fri Apr 11 17:27:00 EDT 2014 x86_64 x86_64 x86_64 GNU/Linux
+-------------------------
+Checking RRDtool version >= 1.4.7: [ OK ] 1.4.7
+Dropping database: zodb_session
+Creating database: zodb_session
+Applying schema version: 1
+Applying schema version: 2
+Applying schema version: 3
+Dropping database: zodb
+Creating database: zodb
+Applying schema version: 1
+Applying schema version: 2
+Applying schema version: 3
+Creating database: zenoss_zep
+make zope instance.
+Loading initial Zenoss objects into the Zeo database
+(this can take a few minutes)
+Zenoss initialization complete.
+Daemon: zeneventserver starting...
+Waiting for zeneventserver to start.......
+Daemon: zopectl . 
+daemon process started, pid=17023
+Daemon: zenrrdcached starting...
+Daemon: zenhub starting...
+Daemon: zenjobs starting...
+Daemon: zeneventd starting...
+Daemon: zenping starting...
+Daemon: zensyslog starting...
+Daemon: zenstatus starting...
+Daemon: zenactiond starting...
+Daemon: zentrap starting...
+Daemon: zenmodeler starting...
+Daemon: zenperfsnmp starting...
+Daemon: zencommand starting...
+Daemon: zenprocess starting...
+Daemon: zredis is already running
+
+Fresh install post step
+--2014-10-14 02:56:47--  http://localhost.localdomain:8080/zport/dmd/DeviceLoader/loadDevice?deviceName=localhost.localdomain&devicePath=/Server/Linux
+Resolving localhost.localdomain... ::1, 127.0.0.1
+Connecting to localhost.localdomain|::1|:8080... failed: Connection refused.
+Connecting to localhost.localdomain|127.0.0.1|:8080... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `/dev/null'
+
+     0K .......... .                                           52.6K=0.2s
+
+2014-10-14 02:56:48 (52.6 KB/s) - `/dev/null' saved [12073]
+
+Zenoss installation completed.

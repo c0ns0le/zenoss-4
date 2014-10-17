@@ -1,0 +1,150 @@
+2014-10-14 02:56:24,726 INFO zen.ZenModeler: Run as a daemon, waiting 45 seconds to start.
+2014-10-14 02:56:24,728 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-14 03:00:37,086 INFO zen.ZenModeler: Run as a daemon, waiting 51 seconds to start.
+2014-10-14 03:00:37,088 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-14 03:04:05,923 INFO zen.ZenModeler: Run as a daemon, waiting 43 seconds to start.
+2014-10-14 03:04:05,925 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-14 03:04:05,934 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-14 03:04:49,055 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-14 03:04:49,065 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-14 03:12:08,763 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-14 03:12:08,763 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-14 03:13:16,005 INFO zen.ZenModeler: Run as a daemon, waiting 35 seconds to start.
+2014-10-14 03:13:16,007 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-14 03:13:16,020 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-14 03:13:51,133 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-14 03:13:51,142 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-14 05:24:50,129 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-14 05:24:50,129 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-14 05:25:56,000 INFO zen.ZenModeler: Run as a daemon, waiting 43 seconds to start.
+2014-10-14 05:25:56,002 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-14 05:25:56,027 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-14 05:26:39,309 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-14 05:26:39,319 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-14 06:15:01,550 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-14 06:15:01,551 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-14 06:16:08,225 INFO zen.ZenModeler: Run as a daemon, waiting 21 seconds to start.
+2014-10-14 06:16:08,227 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-14 06:16:08,239 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-14 06:16:29,977 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-14 06:16:29,986 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-14 06:16:49,863 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-14 06:16:49,864 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-14 06:17:56,967 INFO zen.ZenModeler: Run as a daemon, waiting 55 seconds to start.
+2014-10-14 06:17:56,969 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-14 06:17:56,985 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-14 06:18:52,164 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-14 06:18:52,174 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-14 06:26:11,296 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-14 06:26:11,296 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-14 06:27:17,954 INFO zen.ZenModeler: Run as a daemon, waiting 15 seconds to start.
+2014-10-14 06:27:17,956 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-14 06:27:17,973 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-14 06:27:33,208 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-14 06:27:33,217 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-14 07:59:22,488 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-14 07:59:22,488 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-14 08:00:30,032 INFO zen.ZenModeler: Run as a daemon, waiting 26 seconds to start.
+2014-10-14 08:00:30,034 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-14 08:00:30,046 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-14 08:00:56,289 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-14 08:00:56,299 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-14 20:00:56,289 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-14 20:00:56,296 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-15 08:00:56,290 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-15 08:00:56,300 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-15 20:00:56,291 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-15 20:00:56,300 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-16 00:50:18,963 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-16 00:50:18,963 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-16 00:51:27,569 INFO zen.ZenModeler: Run as a daemon, waiting 50 seconds to start.
+2014-10-16 00:51:27,571 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-16 00:51:27,583 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-16 00:52:17,828 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-16 00:52:17,839 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-16 12:52:17,829 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-16 12:52:17,838 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-17 00:52:17,829 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-17 00:52:17,839 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-17 03:53:58,681 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-17 03:53:58,681 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-17 03:55:06,177 INFO zen.ZenModeler: Run as a daemon, waiting 32 seconds to start.
+2014-10-17 03:55:06,179 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-17 03:55:06,189 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-17 03:55:06,267 ERROR zen.ZenModeler: Error occured: [Failure instance: Traceback (failure with no frames): <class 'Products.ZenHub.PBDaemon.RemoteException'>: : Traceback (most recent call last):
+  File "/opt/zenoss/Products/ZenHub/PBDaemon.py", line 85, in inner
+    return callable(*args, **kw)
+  File "/opt/zenoss/Products/ZenHub/services/ThresholdMixin.py", line 23, in remote_getThresholdClasses
+    classes += pack.getThresholdClasses()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 729, in getThresholdClasses
+    return self._getClassesByPath('thresholds')
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 712, in _getClassesByPath
+    for path, dirs, files in os.walk(self.path(name)):
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 794, in path
+    module = self.getModule()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 993, in getModule
+    _, packEntry = self.getEntryPoint()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 976, in getEntryPoint
+    dist = self.getDistribution()
+  File "/opt/zenoss/Products/ZenModel/ZenPack.py", line 966, in getDistribution
+    return pkg_resources.get_distribution(self.id)
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 311, in get_distribution
+    if isinstance(dist,Requirement): dist = get_provider(dist)
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 197, in get_provider
+    return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 666, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/opt/zenoss/lib/python/pkg_resources.py", line 565, in resolve
+    raise DistributionNotFound(req)  # XXX put more info here
+DistributionNotFound: ZenPacks.CTL.Zendesk
+: <no traceback>
+]
+2014-10-17 04:03:22,068 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-17 04:03:22,068 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-17 04:04:29,378 INFO zen.ZenModeler: Run as a daemon, waiting 48 seconds to start.
+2014-10-17 04:04:29,379 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-17 04:04:29,403 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-17 04:05:17,617 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-17 04:05:17,627 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-17 04:23:25,266 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-17 04:23:25,267 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-17 04:24:34,336 INFO zen.ZenModeler: Run as a daemon, waiting 15 seconds to start.
+2014-10-17 04:24:34,338 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-17 04:24:34,355 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-17 04:24:49,608 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-17 04:24:49,618 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-17 04:30:03,296 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-17 04:30:03,296 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-17 04:31:12,040 INFO zen.ZenModeler: Run as a daemon, waiting 19 seconds to start.
+2014-10-17 04:31:12,042 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-17 04:31:12,054 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-17 04:31:31,879 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-17 04:31:31,890 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-17 04:38:19,614 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-17 04:38:19,614 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-17 04:39:28,028 INFO zen.ZenModeler: Run as a daemon, waiting 56 seconds to start.
+2014-10-17 04:39:28,030 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-17 04:39:28,052 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-17 04:40:24,486 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-17 04:40:24,513 INFO zen.ZenModeler: Scan time: 0.03 seconds
+2014-10-17 05:01:25,011 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-17 05:01:25,012 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-17 05:02:34,798 INFO zen.ZenModeler: Run as a daemon, waiting 40 seconds to start.
+2014-10-17 05:02:34,800 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-17 05:02:34,818 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-17 05:03:15,090 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-17 05:03:15,100 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-17 05:05:46,306 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-17 05:05:46,306 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-17 05:06:54,455 INFO zen.ZenModeler: Run as a daemon, waiting 17 seconds to start.
+2014-10-17 05:06:54,457 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-17 05:06:54,469 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-17 05:07:11,694 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-17 05:07:11,704 INFO zen.ZenModeler: Scan time: 0.01 seconds
+2014-10-17 05:15:03,620 INFO zen.ZenModeler: Deleting PID file /opt/zenoss/var/zenmodeler-localhost.pid ...
+2014-10-17 05:15:03,621 INFO zen.ZenModeler: Daemon ZenModeler shutting down
+2014-10-17 05:16:12,437 INFO zen.ZenModeler: Run as a daemon, waiting 60 seconds to start.
+2014-10-17 05:16:12,444 INFO zen.ZenModeler: Connecting to localhost:8789
+2014-10-17 05:16:12,462 INFO zen.ZenModeler: Connected to ZenHub
+2014-10-17 05:17:12,817 INFO zen.ZenModeler: Collecting for path /Devices
+2014-10-17 05:17:12,828 INFO zen.ZenModeler: Scan time: 0.01 seconds

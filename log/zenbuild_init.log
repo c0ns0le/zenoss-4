@@ -1,0 +1,7 @@
+/opt/zenoss/lib/python/relstorage/adapters/scriptrunner.py:52: Warning: InnoDB: ROW_FORMAT=COMPRESSED requires innodb_file_per_table.
+  cursor.execute(stmt, generic_params)
+/opt/zenoss/lib/python/relstorage/adapters/scriptrunner.py:52: Warning: InnoDB: assuming ROW_FORMAT=COMPACT.
+  cursor.execute(stmt, generic_params)
+/opt/zenoss/lib/python/relstorage/adapters/scriptrunner.py:52: Warning: Table 'connection_info' already exists
+  cursor.execute(stmt, generic_params)
+2014-10-14 02:55:12,627 INFO zen.ReportLoader: Loading reports from /opt/zenoss/Products/ZenReports/reports

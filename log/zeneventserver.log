@@ -1,0 +1,1040 @@
+2014-10-14T02:55:23.062 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-14T02:55:24.317 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T02:55:24.357 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-14T02:55:24.362 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-14T02:55:24.474 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T02:55:25.488 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-14T02:55:25.489 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-14T02:55:25.499 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-14T02:55:25.524 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-14T02:55:25.525 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-14T02:55:25.526 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-14T02:55:25.595 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-14T02:55:25.595 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-14T02:55:25.597 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-14T02:55:25.597 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-14T02:55:25.601 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-14T02:55:25.603 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-14T02:55:25.676 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-14T02:55:25.687 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-14T02:55:25.697 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-14T02:55:25.711 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-14T02:55:25.715 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-14T02:55:25.715 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-14T02:55:25.715 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-14T02:55:25.715 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-14T02:55:25.715 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-14T02:55:25.715 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-14T02:55:25.715 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-14T02:55:25.717 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-14T02:55:25.720 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T02:55:25.728 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T02:55:25.764 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-14T02:55:25.849 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_summary
+2014-10-14T02:55:25.853 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-14T02:55:25.864 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-14T02:55:25.876 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-14T02:55:25.946 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-14T02:55:25.947 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_summary
+2014-10-14T02:56:25.681 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Wed Jul 16 02:56:25 EDT 2014
+2014-10-14T02:59:30.769 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-14T02:59:30.772 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-14T02:59:30.773 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-14T02:59:30.774 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-14T02:59:30.774 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-14T02:59:30.785 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-14T02:59:30.789 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-14T02:59:30.790 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-14T02:59:30.790 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-14T02:59:30.790 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-14T02:59:35.334 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-14T02:59:36.818 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T02:59:36.870 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-14T02:59:36.883 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-14T02:59:37.105 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T02:59:38.064 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-14T02:59:38.064 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-14T02:59:38.067 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-14T02:59:38.079 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-14T02:59:38.081 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-14T02:59:38.082 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-14T02:59:38.127 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-14T02:59:38.127 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-14T02:59:38.128 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-14T02:59:38.128 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-14T02:59:38.133 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-14T02:59:38.138 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-14T02:59:38.196 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-14T02:59:38.207 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-14T02:59:38.208 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-14T02:59:38.222 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-14T02:59:38.223 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-14T02:59:38.223 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-14T02:59:38.223 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-14T02:59:38.223 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-14T02:59:38.223 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-14T02:59:38.223 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-14T02:59:38.223 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-14T02:59:38.229 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-14T02:59:38.245 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T02:59:38.250 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T02:59:38.288 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-14T02:59:38.369 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_summary
+2014-10-14T02:59:38.369 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-14T02:59:38.373 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-14T02:59:38.392 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-14T02:59:38.435 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-14T02:59:38.436 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_summary
+2014-10-14T03:00:38.148 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_090000 to table event_time
+2014-10-14T03:00:38.195 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Wed Jul 16 03:00:38 EDT 2014
+2014-10-14T03:03:04.292 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-14T03:03:04.293 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-14T03:03:04.294 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-14T03:03:04.295 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-14T03:03:04.295 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-14T03:03:04.308 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-14T03:03:04.312 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-14T03:03:04.312 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-14T03:03:04.312 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-14T03:03:04.313 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-14T03:03:09.485 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-14T03:03:10.765 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T03:03:10.827 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-14T03:03:10.842 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-14T03:03:11.085 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T03:03:11.986 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-14T03:03:11.986 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-14T03:03:11.989 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-14T03:03:12.001 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-14T03:03:12.003 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-14T03:03:12.003 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-14T03:03:12.049 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-14T03:03:12.049 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-14T03:03:12.051 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-14T03:03:12.052 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-14T03:03:12.055 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-14T03:03:12.062 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-14T03:03:12.137 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-14T03:03:12.161 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-14T03:03:12.161 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-14T03:03:12.164 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-14T03:03:12.164 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-14T03:03:12.167 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-14T03:03:12.167 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-14T03:03:12.167 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-14T03:03:12.167 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-14T03:03:12.167 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-14T03:03:12.167 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-14T03:03:12.168 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-14T03:03:12.179 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T03:03:12.217 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T03:03:12.240 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-14T03:03:12.317 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_summary
+2014-10-14T03:03:12.317 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-14T03:03:12.323 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-14T03:03:12.325 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-14T03:03:12.411 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_summary
+2014-10-14T03:03:12.411 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-14T03:04:12.079 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Wed Jul 16 03:04:12 EDT 2014
+2014-10-14T03:12:14.068 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-14T03:12:14.068 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-14T03:12:14.068 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-14T03:12:14.069 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-14T03:12:14.069 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-14T03:12:14.088 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-14T03:12:14.091 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-14T03:12:14.091 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-14T03:12:14.092 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-14T03:12:14.092 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-14T03:12:18.786 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-14T03:12:20.145 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T03:12:20.209 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-14T03:12:20.211 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-14T03:12:20.392 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T03:12:21.331 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-14T03:12:21.331 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-14T03:12:21.334 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-14T03:12:21.347 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-14T03:12:21.348 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-14T03:12:21.349 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-14T03:12:21.394 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-14T03:12:21.394 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-14T03:12:21.395 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-14T03:12:21.395 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-14T03:12:21.400 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-14T03:12:21.402 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-14T03:12:21.478 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-14T03:12:21.481 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-14T03:12:21.482 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-14T03:12:21.489 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-14T03:12:21.489 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-14T03:12:21.489 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-14T03:12:21.493 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-14T03:12:21.494 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-14T03:12:21.494 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-14T03:12:21.494 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-14T03:12:21.494 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-14T03:12:21.500 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T03:12:21.512 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-14T03:12:21.520 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index version changed: previous=0, new=8
+2014-10-14T03:12:21.593 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-14T03:12:21.632 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-14T03:12:21.632 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-14T03:12:21.637 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_summary
+2014-10-14T03:12:21.647 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-14T03:12:21.710 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-14T03:12:22.012 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 9 events on table: event_summary
+2014-10-14T03:13:21.427 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Wed Jul 16 03:13:21 EDT 2014
+2014-10-14T04:13:21.415 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_100000 to table event_time
+2014-10-14T05:13:21.481 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_110000 to table event_time
+2014-10-14T05:24:55.086 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-14T05:24:55.087 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-14T05:24:55.087 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-14T05:24:55.088 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-14T05:24:55.088 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-14T05:24:55.100 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-14T05:24:55.106 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-14T05:24:55.106 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-14T05:24:55.106 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-14T05:24:55.106 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-14T05:24:59.745 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-14T05:25:01.239 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T05:25:01.294 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-14T05:25:01.298 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-14T05:25:01.505 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T05:25:02.583 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-14T05:25:02.583 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-14T05:25:02.588 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-14T05:25:02.607 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-14T05:25:02.609 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-14T05:25:02.610 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-14T05:25:02.679 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-14T05:25:02.680 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-14T05:25:02.681 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-14T05:25:02.682 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-14T05:25:02.687 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-14T05:25:02.696 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-14T05:25:02.790 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-14T05:25:02.790 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-14T05:25:02.790 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-14T05:25:02.790 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-14T05:25:02.790 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-14T05:25:02.790 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-14T05:25:02.790 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-14T05:25:02.791 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-14T05:25:02.808 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T05:25:02.804 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-14T05:25:02.818 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-14T05:25:02.827 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-14T05:25:02.829 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-14T05:25:02.832 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-14T05:25:02.945 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-14T05:25:03.020 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-14T05:25:03.021 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-14T05:25:03.105 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-14T05:26:02.725 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Wed Jul 16 05:26:02 EDT 2014
+2014-10-14T06:15:06.862 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-14T06:15:06.863 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-14T06:15:06.864 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-14T06:15:06.864 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-14T06:15:06.865 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-14T06:15:06.876 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-14T06:15:06.882 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-14T06:15:06.882 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-14T06:15:06.882 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-14T06:15:06.882 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-14T06:15:11.634 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-14T06:15:13.008 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T06:15:13.062 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-14T06:15:13.066 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-14T06:15:13.271 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T06:15:14.184 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-14T06:15:14.184 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-14T06:15:14.187 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-14T06:15:14.200 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-14T06:15:14.201 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-14T06:15:14.202 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-14T06:15:14.247 [main] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_120000 to table event_time
+2014-10-14T06:15:14.313 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-14T06:15:14.313 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-14T06:15:14.314 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-14T06:15:14.314 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-14T06:15:14.317 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-14T06:15:14.325 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-14T06:15:14.389 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-14T06:15:14.398 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-14T06:15:14.399 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-14T06:15:14.399 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-14T06:15:14.399 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-14T06:15:14.399 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-14T06:15:14.399 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-14T06:15:14.399 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-14T06:15:14.410 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-14T06:15:14.418 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-14T06:15:14.420 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-14T06:15:14.422 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-14T06:15:14.424 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-14T06:15:14.426 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T06:15:14.495 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-14T06:15:14.563 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-14T06:15:14.563 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-14T06:15:14.599 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-14T06:16:14.348 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Wed Jul 16 06:16:14 EDT 2014
+2014-10-14T06:16:55.003 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-14T06:16:55.004 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-14T06:16:55.005 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-14T06:16:55.005 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-14T06:16:55.006 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-14T06:16:55.018 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-14T06:16:55.023 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-14T06:16:55.023 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-14T06:16:55.023 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-14T06:16:55.023 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-14T06:16:59.648 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-14T06:17:01.197 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T06:17:01.251 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-14T06:17:01.256 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-14T06:17:01.374 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T06:17:02.401 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-14T06:17:02.401 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-14T06:17:02.404 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-14T06:17:02.418 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-14T06:17:02.420 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-14T06:17:02.421 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-14T06:17:02.471 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-14T06:17:02.471 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-14T06:17:02.472 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-14T06:17:02.474 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-14T06:17:02.477 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-14T06:17:02.483 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-14T06:17:02.550 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-14T06:17:02.560 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-14T06:17:02.566 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-14T06:17:02.568 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-14T06:17:02.571 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-14T06:17:02.577 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-14T06:17:02.577 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-14T06:17:02.577 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-14T06:17:02.578 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-14T06:17:02.578 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-14T06:17:02.578 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-14T06:17:02.578 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-14T06:17:02.593 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T06:17:02.612 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-14T06:17:02.667 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-14T06:17:02.748 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-14T06:17:02.748 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-14T06:17:02.818 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-14T06:18:02.505 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Wed Jul 16 06:18:02 EDT 2014
+2014-10-14T06:26:16.127 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-14T06:26:16.127 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-14T06:26:16.128 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-14T06:26:16.128 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-14T06:26:16.129 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-14T06:26:16.140 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-14T06:26:16.145 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-14T06:26:16.145 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-14T06:26:16.145 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-14T06:26:16.145 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-14T06:26:20.894 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-14T06:26:22.123 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T06:26:22.178 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-14T06:26:22.178 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-14T06:26:22.328 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T06:26:23.185 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-14T06:26:23.185 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-14T06:26:23.188 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-14T06:26:23.200 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-14T06:26:23.202 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-14T06:26:23.202 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-14T06:26:23.248 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-14T06:26:23.248 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-14T06:26:23.249 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-14T06:26:23.250 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-14T06:26:23.253 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-14T06:26:23.258 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-14T06:26:23.323 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-14T06:26:23.326 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-14T06:26:23.326 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-14T06:26:23.326 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-14T06:26:23.326 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-14T06:26:23.326 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-14T06:26:23.326 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-14T06:26:23.326 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-14T06:26:23.332 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-14T06:26:23.343 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-14T06:26:23.344 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T06:26:23.348 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-14T06:26:23.363 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-14T06:26:23.391 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-14T06:26:23.427 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-14T06:26:23.502 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-14T06:26:23.502 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-14T06:26:23.537 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-14T06:27:23.287 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Wed Jul 16 06:27:23 EDT 2014
+2014-10-14T07:27:23.272 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_130000 to table event_time
+2014-10-14T07:59:27.901 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-14T07:59:27.902 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-14T07:59:27.902 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-14T07:59:27.903 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-14T07:59:27.903 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-14T07:59:27.915 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-14T07:59:27.919 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-14T07:59:27.919 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-14T07:59:27.919 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-14T07:59:27.919 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-14T07:59:32.643 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-14T07:59:33.922 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T07:59:33.969 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-14T07:59:33.978 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-14T07:59:34.136 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-14T07:59:35.096 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-14T07:59:35.097 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-14T07:59:35.099 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-14T07:59:35.112 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-14T07:59:35.114 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-14T07:59:35.114 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-14T07:59:35.162 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-14T07:59:35.162 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-14T07:59:35.163 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-14T07:59:35.163 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-14T07:59:35.167 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-14T07:59:35.172 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-14T07:59:35.235 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-14T07:59:35.244 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-14T07:59:35.258 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-14T07:59:35.260 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-14T07:59:35.266 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-14T07:59:35.276 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-14T07:59:35.277 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-14T07:59:35.277 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-14T07:59:35.277 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-14T07:59:35.277 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-14T07:59:35.277 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-14T07:59:35.277 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-14T07:59:35.281 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-14T07:59:35.297 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-14T07:59:35.340 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-14T07:59:35.417 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-14T07:59:35.417 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-14T07:59:35.478 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-14T08:00:35.181 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_140000 to table event_time
+2014-10-14T08:00:35.211 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Wed Jul 16 08:00:35 EDT 2014
+2014-10-14T09:00:35.307 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_150000 to table event_time
+2014-10-14T10:00:35.404 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_160000 to table event_time
+2014-10-14T11:00:35.624 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_170000 to table event_time
+2014-10-14T12:00:35.696 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_180000 to table event_time
+2014-10-14T13:00:35.753 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_190000 to table event_time
+2014-10-14T14:00:35.817 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_200000 to table event_time
+2014-10-14T15:00:35.882 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_210000 to table event_time
+2014-10-14T16:00:35.941 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_220000 to table event_time
+2014-10-14T17:00:36.004 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141014_230000 to table event_time
+2014-10-14T18:00:36.064 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_000000 to table event_time
+2014-10-14T19:00:36.128 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_010000 to table event_time
+2014-10-14T19:59:35.371 [ZEP_DATABASE_MAINTENANCE] INFO  org.zenoss.zep.dao.impl.DBMaintenanceServiceImpl - Optimizaton of event_summary
+2014-10-14T20:00:36.185 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_020000 to table event_time
+2014-10-14T21:00:36.325 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_030000 to table event_time
+2014-10-14T22:00:36.398 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_040000 to table event_time
+2014-10-14T23:00:36.458 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_050000 to table event_time
+2014-10-15T00:00:36.547 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_060000 to table event_time
+2014-10-15T01:00:36.713 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_070000 to table event_time
+2014-10-15T02:00:36.787 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_060000: prune timestamp 2014-10-14 02:00:36.787
+2014-10-15T02:00:36.851 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_080000 to table event_time
+2014-10-15T03:00:36.937 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_070000: prune timestamp 2014-10-14 03:00:36.937
+2014-10-15T03:00:37.149 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_090000 to table event_time
+2014-10-15T04:00:37.266 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_080000: prune timestamp 2014-10-14 04:00:37.266
+2014-10-15T04:00:37.321 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_100000 to table event_time
+2014-10-15T05:00:37.387 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_090000: prune timestamp 2014-10-14 05:00:37.387
+2014-10-15T05:00:37.441 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_110000 to table event_time
+2014-10-15T06:00:37.502 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_100000: prune timestamp 2014-10-14 06:00:37.502
+2014-10-15T06:00:37.570 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_120000 to table event_time
+2014-10-15T07:00:37.648 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_110000: prune timestamp 2014-10-14 07:00:37.648
+2014-10-15T07:00:37.700 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_130000 to table event_time
+2014-10-15T07:59:35.531 [ZEP_DATABASE_MAINTENANCE] INFO  org.zenoss.zep.dao.impl.DBMaintenanceServiceImpl - Optimizaton of event_summary
+2014-10-15T08:00:35.247 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_archive partition p20140717_000000: prune timestamp 2014-07-17 08:00:35.247
+2014-10-15T08:00:35.314 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141018_000000 to table event_archive
+2014-10-15T08:00:35.382 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Thu Jul 17 08:00:35 EDT 2014
+2014-10-15T08:00:37.762 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_120000: prune timestamp 2014-10-14 08:00:37.761
+2014-10-15T08:00:37.832 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_140000 to table event_time
+2014-10-15T09:00:37.891 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_130000: prune timestamp 2014-10-14 09:00:37.891
+2014-10-15T09:00:37.947 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_150000 to table event_time
+2014-10-15T10:00:38.009 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_140000: prune timestamp 2014-10-14 10:00:38.008
+2014-10-15T10:00:38.306 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_160000 to table event_time
+2014-10-15T11:00:38.388 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_150000: prune timestamp 2014-10-14 11:00:38.388
+2014-10-15T11:00:38.507 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_170000 to table event_time
+2014-10-15T12:00:38.573 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_160000: prune timestamp 2014-10-14 12:00:38.573
+2014-10-15T12:00:38.672 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_180000 to table event_time
+2014-10-15T13:00:38.735 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_170000: prune timestamp 2014-10-14 13:00:38.735
+2014-10-15T13:00:38.803 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_190000 to table event_time
+2014-10-15T14:00:38.862 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_180000: prune timestamp 2014-10-14 14:00:38.862
+2014-10-15T14:00:38.917 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_200000 to table event_time
+2014-10-15T15:00:39.007 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_190000: prune timestamp 2014-10-14 15:00:39.007
+2014-10-15T15:00:39.091 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_210000 to table event_time
+2014-10-15T16:00:39.188 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_200000: prune timestamp 2014-10-14 16:00:39.188
+2014-10-15T16:00:39.249 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_220000 to table event_time
+2014-10-15T17:00:39.308 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_210000: prune timestamp 2014-10-14 17:00:39.308
+2014-10-15T17:00:39.375 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141015_230000 to table event_time
+2014-10-15T18:00:39.459 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_220000: prune timestamp 2014-10-14 18:00:39.459
+2014-10-15T18:00:39.509 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_000000 to table event_time
+2014-10-15T19:00:39.566 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141014_230000: prune timestamp 2014-10-14 19:00:39.566
+2014-10-15T19:00:39.623 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_010000 to table event_time
+2014-10-15T19:59:35.746 [ZEP_DATABASE_MAINTENANCE] INFO  org.zenoss.zep.dao.impl.DBMaintenanceServiceImpl - Optimizaton of event_summary
+2014-10-15T20:00:39.684 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_000000: prune timestamp 2014-10-14 20:00:39.684
+2014-10-15T20:00:39.752 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_020000 to table event_time
+2014-10-15T21:00:39.819 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_010000: prune timestamp 2014-10-14 21:00:39.819
+2014-10-15T21:00:39.882 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_030000 to table event_time
+2014-10-15T22:00:39.961 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_020000: prune timestamp 2014-10-14 22:00:39.961
+2014-10-15T22:00:40.045 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_040000 to table event_time
+2014-10-15T23:00:40.165 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_030000: prune timestamp 2014-10-14 23:00:40.165
+2014-10-15T23:00:40.276 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_050000 to table event_time
+2014-10-16T00:00:40.341 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_040000: prune timestamp 2014-10-15 00:00:40.341
+2014-10-16T00:00:40.390 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_060000 to table event_time
+2014-10-16T00:50:24.086 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-16T00:50:24.087 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-16T00:50:24.088 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-16T00:50:24.088 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-16T00:50:24.089 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-16T00:50:24.102 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-16T00:50:24.107 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-16T00:50:24.107 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-16T00:50:24.107 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-16T00:50:24.108 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-16T00:50:28.977 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-16T00:50:30.326 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-16T00:50:30.395 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-16T00:50:30.397 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-16T00:50:30.634 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-16T00:50:31.626 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-16T00:50:31.626 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-16T00:50:31.628 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-16T00:50:31.641 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-16T00:50:31.643 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-16T00:50:31.643 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-16T00:50:31.684 [main] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141019_000000 to table event_archive
+2014-10-16T00:50:31.848 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-16T00:50:31.848 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-16T00:50:31.849 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-16T00:50:31.850 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-16T00:50:31.853 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-16T00:50:31.859 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-16T00:50:31.927 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-16T00:50:31.941 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-16T00:50:31.941 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-16T00:50:31.941 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-16T00:50:31.941 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-16T00:50:31.946 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-16T00:50:31.942 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-16T00:50:31.949 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-16T00:50:31.949 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-16T00:50:31.955 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-16T00:50:31.960 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-16T00:50:31.967 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-16T00:50:31.972 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Empty index detected.
+2014-10-16T00:50:31.997 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-16T00:50:32.043 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-16T00:50:32.109 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-16T00:50:32.109 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-16T00:50:32.147 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 0 events on table: event_archive
+2014-10-16T00:51:31.876 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_archive partition p20140718_000000: prune timestamp 2014-07-18 00:51:31.875
+2014-10-16T00:51:31.952 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Fri Jul 18 00:51:31 EDT 2014
+2014-10-16T01:51:31.881 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_050000: prune timestamp 2014-10-15 01:51:31.881
+2014-10-16T01:51:31.931 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_070000 to table event_time
+2014-10-16T02:51:32.014 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_060000: prune timestamp 2014-10-15 02:51:32.014
+2014-10-16T02:51:32.072 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_080000 to table event_time
+2014-10-16T03:51:32.132 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_070000: prune timestamp 2014-10-15 03:51:32.132
+2014-10-16T03:51:32.187 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_090000 to table event_time
+2014-10-16T04:51:32.244 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_080000: prune timestamp 2014-10-15 04:51:32.244
+2014-10-16T04:51:32.292 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_100000 to table event_time
+2014-10-16T05:51:32.344 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_090000: prune timestamp 2014-10-15 05:51:32.344
+2014-10-16T05:51:32.414 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_110000 to table event_time
+2014-10-16T06:51:32.475 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_100000: prune timestamp 2014-10-15 06:51:32.474
+2014-10-16T06:51:32.525 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_120000 to table event_time
+2014-10-16T07:51:32.579 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_110000: prune timestamp 2014-10-15 07:51:32.579
+2014-10-16T07:51:32.633 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_130000 to table event_time
+2014-10-16T08:51:32.690 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_120000: prune timestamp 2014-10-15 08:51:32.69
+2014-10-16T08:51:32.743 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_140000 to table event_time
+2014-10-16T09:51:32.810 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_130000: prune timestamp 2014-10-15 09:51:32.81
+2014-10-16T09:51:32.871 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_150000 to table event_time
+2014-10-16T10:51:32.958 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_140000: prune timestamp 2014-10-15 10:51:32.958
+2014-10-16T10:51:33.016 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_160000 to table event_time
+2014-10-16T11:51:33.074 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_150000: prune timestamp 2014-10-15 11:51:33.074
+2014-10-16T11:51:33.128 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_170000 to table event_time
+2014-10-16T12:50:32.036 [ZEP_DATABASE_MAINTENANCE] INFO  org.zenoss.zep.dao.impl.DBMaintenanceServiceImpl - Optimizaton of event_summary
+2014-10-16T12:51:33.186 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_160000: prune timestamp 2014-10-15 12:51:33.186
+2014-10-16T12:51:33.253 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_180000 to table event_time
+2014-10-16T13:51:33.310 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_170000: prune timestamp 2014-10-15 13:51:33.31
+2014-10-16T13:51:33.360 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_190000 to table event_time
+2014-10-16T14:51:33.428 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_180000: prune timestamp 2014-10-15 14:51:33.428
+2014-10-16T14:51:33.484 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_200000 to table event_time
+2014-10-16T15:51:33.545 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_190000: prune timestamp 2014-10-15 15:51:33.545
+2014-10-16T15:51:33.601 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_210000 to table event_time
+2014-10-16T16:51:33.661 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_200000: prune timestamp 2014-10-15 16:51:33.661
+2014-10-16T16:51:33.718 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_220000 to table event_time
+2014-10-16T17:51:33.775 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_210000: prune timestamp 2014-10-15 17:51:33.775
+2014-10-16T17:51:33.836 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141016_230000 to table event_time
+2014-10-16T18:51:33.893 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_220000: prune timestamp 2014-10-15 18:51:33.893
+2014-10-16T18:51:33.949 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_000000 to table event_time
+2014-10-16T19:51:34.004 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141015_230000: prune timestamp 2014-10-15 19:51:34.004
+2014-10-16T19:51:34.057 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_010000 to table event_time
+2014-10-16T20:51:34.147 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_000000: prune timestamp 2014-10-15 20:51:34.147
+2014-10-16T20:51:34.194 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_020000 to table event_time
+2014-10-16T21:51:34.252 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_010000: prune timestamp 2014-10-15 21:51:34.252
+2014-10-16T21:51:34.321 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_030000 to table event_time
+2014-10-16T22:51:34.378 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_020000: prune timestamp 2014-10-15 22:51:34.378
+2014-10-16T22:51:34.456 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_040000 to table event_time
+2014-10-16T23:51:34.509 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_030000: prune timestamp 2014-10-15 23:51:34.509
+2014-10-16T23:51:34.562 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_050000 to table event_time
+2014-10-17T00:50:32.196 [ZEP_DATABASE_MAINTENANCE] INFO  org.zenoss.zep.dao.impl.DBMaintenanceServiceImpl - Optimizaton of event_summary
+2014-10-17T00:51:31.963 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_archive partition p20140719_000000: prune timestamp 2014-07-19 00:51:31.963
+2014-10-17T00:51:32.039 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141020_000000 to table event_archive
+2014-10-17T00:51:32.103 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Sat Jul 19 00:51:32 EDT 2014
+2014-10-17T00:51:34.621 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_040000: prune timestamp 2014-10-16 00:51:34.621
+2014-10-17T00:51:34.674 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_060000 to table event_time
+2014-10-17T01:51:34.730 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_050000: prune timestamp 2014-10-16 01:51:34.73
+2014-10-17T01:51:34.781 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_070000 to table event_time
+2014-10-17T02:51:34.918 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_060000: prune timestamp 2014-10-16 02:51:34.918
+2014-10-17T02:51:34.975 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_080000 to table event_time
+2014-10-17T03:51:35.034 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_070000: prune timestamp 2014-10-16 03:51:35.034
+2014-10-17T03:51:35.099 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_090000 to table event_time
+2014-10-17T03:54:03.936 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-17T03:54:03.936 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-17T03:54:03.937 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-17T03:54:03.938 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-17T03:54:03.938 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-17T03:54:03.952 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-17T03:54:03.957 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-17T03:54:03.957 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-17T03:54:03.957 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-17T03:54:03.957 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-17T03:54:08.667 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-17T03:54:09.749 [main] WARN  org.zenoss.utils.impl.ZenPackImpl - No egg-info found for ZenPack in /home/zenoss/ZenPacks.CTL.Zendesk.
+2014-10-17T03:54:10.082 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T03:54:10.141 [main] WARN  org.zenoss.utils.impl.ZenPackImpl - No egg-info found for ZenPack in /home/zenoss/ZenPacks.CTL.Zendesk.
+2014-10-17T03:54:10.159 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-17T03:54:10.166 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-17T03:54:10.409 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T03:54:11.358 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-17T03:54:11.358 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-17T03:54:11.361 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-17T03:54:11.374 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-17T03:54:11.376 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-17T03:54:11.377 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-17T03:54:11.427 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-17T03:54:11.427 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-17T03:54:11.428 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-17T03:54:11.429 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-17T03:54:11.432 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-17T03:54:11.435 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-17T03:54:11.508 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-17T03:54:11.508 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-17T03:54:11.514 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-17T03:54:11.517 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-17T03:54:11.531 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-17T03:54:11.534 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-17T03:54:11.534 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-17T03:54:11.534 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-17T03:54:11.534 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-17T03:54:11.534 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-17T03:54:11.534 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-17T03:54:11.534 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-17T03:54:11.538 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index version changed: previous=0, new=8
+2014-10-17T03:54:11.571 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-17T03:54:11.613 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-17T03:54:11.682 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Recreating index for table event_archive
+2014-10-17T03:54:11.682 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-17T03:54:12.192 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Finished recreating index for 17 events on table: event_archive
+2014-10-17T03:55:11.475 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Sat Jul 19 03:55:11 EDT 2014
+2014-10-17T04:03:27.276 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-17T04:03:27.277 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-17T04:03:27.277 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-17T04:03:27.278 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-17T04:03:27.278 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-17T04:03:27.291 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-17T04:03:27.296 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-17T04:03:27.296 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-17T04:03:27.297 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-17T04:03:27.297 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-17T04:03:32.125 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-17T04:03:33.427 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T04:03:33.491 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-17T04:03:33.520 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-17T04:03:33.689 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T04:03:34.616 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-17T04:03:34.617 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-17T04:03:34.619 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-17T04:03:34.632 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-17T04:03:34.633 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-17T04:03:34.634 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-17T04:03:34.680 [main] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_100000 to table event_time
+2014-10-17T04:03:34.753 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-17T04:03:34.753 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-17T04:03:34.755 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-17T04:03:34.755 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-17T04:03:34.758 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-17T04:03:34.760 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-17T04:03:34.824 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-17T04:03:34.827 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-17T04:03:34.834 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-17T04:03:34.836 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-17T04:03:34.839 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-17T04:03:34.869 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-17T04:03:34.869 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-17T04:03:34.869 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-17T04:03:34.869 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-17T04:03:34.869 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-17T04:03:34.869 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-17T04:03:34.869 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-17T04:03:34.889 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-17T04:03:34.898 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-17T04:03:34.905 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-17T04:04:34.777 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_080000: prune timestamp 2014-10-16 04:04:34.777
+2014-10-17T04:04:34.795 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Sat Jul 19 04:04:34 EDT 2014
+2014-10-17T04:09:35.024 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Initializing Jython
+2014-10-17T04:09:36.469 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Completed Jython initialization
+2014-10-17T04:23:30.342 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-17T04:23:30.343 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-17T04:23:30.343 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-17T04:23:30.344 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-17T04:23:30.344 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-17T04:23:30.355 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-17T04:23:30.360 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-17T04:23:30.361 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-17T04:23:30.361 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-17T04:23:30.361 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-17T04:23:35.148 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-17T04:23:36.432 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T04:23:36.483 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-17T04:23:36.487 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-17T04:23:36.691 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T04:23:37.770 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-17T04:23:37.770 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-17T04:23:37.773 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-17T04:23:37.785 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-17T04:23:37.787 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-17T04:23:37.787 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-17T04:23:37.837 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-17T04:23:37.837 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-17T04:23:37.839 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-17T04:23:37.839 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-17T04:23:37.843 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-17T04:23:37.845 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-17T04:23:37.914 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-17T04:23:37.940 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-17T04:23:37.940 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-17T04:23:37.940 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-17T04:23:37.940 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-17T04:23:37.940 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-17T04:23:37.940 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-17T04:23:37.940 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-17T04:23:37.940 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-17T04:23:37.954 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-17T04:23:37.960 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-17T04:23:37.961 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-17T04:23:37.980 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-17T04:23:37.987 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-17T04:23:37.993 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-17T04:24:37.870 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Sat Jul 19 04:24:37 EDT 2014
+2014-10-17T04:24:38.789 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Initializing Jython
+2014-10-17T04:24:40.713 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Completed Jython initialization
+2014-10-17T04:26:00.945 [qtp542081238-18 - http://localhost:8084/zeneventserver/api/1.0/events/] ERROR org.jboss.resteasy.core.SynchronousDispatcher - Failed executing POST /1.0/events/
+org.jboss.resteasy.spi.WriterException: org.eclipse.jetty.io.EofException
+	at org.jboss.resteasy.core.ServerResponse.writeTo(ServerResponse.java:197) ~[resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeJaxrsResponse(SynchronousDispatcher.java:574) [resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:495) [resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:120) [resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:200) [resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:48) [resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:43) [resteasy-jaxrs-2.0.1.GA.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820) [servlet-api-2.5.jar:2.5]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547) [jetty-servlet-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:480) [jetty-servlet-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:520) [jetty-security-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:940) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409) [jetty-servlet-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:186) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:874) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.Server.handle(Server.java:345) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:936) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:801) [jetty-http-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:224) [jetty-http-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:52) [jetty-server-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586) [jetty-io-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44) [jetty-io-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598) [jetty-util-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533) [jetty-util-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at java.lang.Thread.run(Unknown Source) [na:1.6.0_31]
+Caused by: org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.http.HttpGenerator.flushBuffer(HttpGenerator.java:919) ~[na:na]
+	at org.eclipse.jetty.http.AbstractGenerator.flush(AbstractGenerator.java:452) ~[na:na]
+	at org.eclipse.jetty.server.HttpOutput.flush(HttpOutput.java:94) ~[na:na]
+	at org.eclipse.jetty.server.HttpConnection$Output.flush(HttpConnection.java:1009) ~[na:na]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:177) ~[na:na]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:101) ~[na:na]
+	at com.google.protobuf.CodedOutputStream.refreshBuffer(CodedOutputStream.java:833) ~[protobuf-java-2.5.0.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeRawBytes(CodedOutputStream.java:959) ~[protobuf-java-2.5.0.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeRawBytes(CodedOutputStream.java:905) ~[protobuf-java-2.5.0.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeBytesNoTag(CodedOutputStream.java:386) ~[protobuf-java-2.5.0.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeBytes(CodedOutputStream.java:229) ~[protobuf-java-2.5.0.jar:na]
+	at org.zenoss.protobufs.zep.Zep$EventDetail.writeTo(Zep.java:2456) ~[protobufs-1.2.2-SNAPSHOT.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeMessageNoTag(CodedOutputStream.java:380) ~[protobuf-java-2.5.0.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeMessage(CodedOutputStream.java:222) ~[protobuf-java-2.5.0.jar:na]
+	at org.zenoss.protobufs.zep.Zep$Event.writeTo(Zep.java:7042) ~[protobufs-1.2.2-SNAPSHOT.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeMessageNoTag(CodedOutputStream.java:380) ~[protobuf-java-2.5.0.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeMessage(CodedOutputStream.java:222) ~[protobuf-java-2.5.0.jar:na]
+	at org.zenoss.protobufs.zep.Zep$EventSummary.writeTo(Zep.java:11318) ~[protobufs-1.2.2-SNAPSHOT.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeMessageNoTag(CodedOutputStream.java:380) ~[protobuf-java-2.5.0.jar:na]
+	at com.google.protobuf.CodedOutputStream.writeMessage(CodedOutputStream.java:222) ~[protobuf-java-2.5.0.jar:na]
+	at org.zenoss.protobufs.zep.Zep$EventSummaryResult.writeTo(Zep.java:24922) ~[protobufs-1.2.2-SNAPSHOT.jar:na]
+	at com.google.protobuf.AbstractMessageLite.writeTo(AbstractMessageLite.java:79) ~[protobuf-java-2.5.0.jar:na]
+	at org.zenoss.protobufs.rest.ProtobufProvider.writeTo(ProtobufProvider.java:78) ~[protobufs-1.2.2-SNAPSHOT.jar:na]
+	at org.zenoss.protobufs.rest.ProtobufProvider.writeTo(ProtobufProvider.java:36) ~[protobufs-1.2.2-SNAPSHOT.jar:na]
+	at org.jboss.resteasy.core.interception.MessageBodyWriterContextImpl.proceed(MessageBodyWriterContextImpl.java:117) ~[resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.plugins.interceptors.encoding.GZIPEncodingInterceptor.write(GZIPEncodingInterceptor.java:48) ~[resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.core.interception.MessageBodyWriterContextImpl.proceed(MessageBodyWriterContextImpl.java:123) ~[resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.plugins.interceptors.encoding.ServerContentEncodingHeaderInterceptor.write(ServerContentEncodingHeaderInterceptor.java:50) ~[resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.core.interception.MessageBodyWriterContextImpl.proceed(MessageBodyWriterContextImpl.java:123) ~[resteasy-jaxrs-2.0.1.GA.jar:na]
+	at org.jboss.resteasy.core.ServerResponse.writeTo(ServerResponse.java:186) ~[resteasy-jaxrs-2.0.1.GA.jar:na]
+	... 31 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.ensureWriteOpen(Unknown Source) ~[na:1.6.0_31]
+	at sun.nio.ch.SocketChannelImpl.write(Unknown Source) ~[na:1.6.0_31]
+	at java.nio.channels.SocketChannel.write(Unknown Source) ~[na:1.6.0_31]
+	at org.eclipse.jetty.io.nio.ChannelEndPoint.gatheringFlush(ChannelEndPoint.java:346) ~[na:na]
+	at org.eclipse.jetty.io.nio.ChannelEndPoint.flush(ChannelEndPoint.java:284) ~[na:na]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.flush(SelectChannelEndPoint.java:300) [jetty-io-7.5.3.v20111011.jar:7.5.3.v20111011]
+	at org.eclipse.jetty.http.HttpGenerator.flushBuffer(HttpGenerator.java:846) ~[na:na]
+	... 60 common frames omitted
+2014-10-17T04:30:08.156 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-17T04:30:08.158 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-17T04:30:08.158 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-17T04:30:08.159 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-17T04:30:08.159 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-17T04:30:08.170 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-17T04:30:08.174 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-17T04:30:08.174 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-17T04:30:08.175 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-17T04:30:08.175 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-17T04:30:13.074 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-17T04:30:14.277 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T04:30:14.356 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-17T04:30:14.360 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-17T04:30:14.537 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T04:30:15.578 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-17T04:30:15.579 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-17T04:30:15.581 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-17T04:30:15.594 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-17T04:30:15.596 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-17T04:30:15.596 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-17T04:30:15.645 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-17T04:30:15.645 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-17T04:30:15.646 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-17T04:30:15.646 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-17T04:30:15.650 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-17T04:30:15.656 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-17T04:30:15.715 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-17T04:30:15.730 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-17T04:30:15.730 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-17T04:30:15.730 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-17T04:30:15.731 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-17T04:30:15.731 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-17T04:30:15.731 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-17T04:30:15.731 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-17T04:30:15.747 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-17T04:30:15.752 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-17T04:30:15.753 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-17T04:30:15.754 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-17T04:30:15.758 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-17T04:30:15.762 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-17T04:30:15.810 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-17T04:31:15.737 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Sat Jul 19 04:31:15 EDT 2014
+2014-10-17T04:31:15.849 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Initializing Jython
+2014-10-17T04:31:17.439 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Completed Jython initialization
+2014-10-17T04:38:24.515 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-17T04:38:24.515 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-17T04:38:24.516 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-17T04:38:24.516 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-17T04:38:24.517 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-17T04:38:24.530 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-17T04:38:24.537 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-17T04:38:24.538 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-17T04:38:24.538 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-17T04:38:24.538 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-17T04:38:29.524 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-17T04:38:30.974 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T04:38:31.035 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-17T04:38:31.039 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-17T04:38:31.141 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T04:38:32.134 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-17T04:38:32.134 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-17T04:38:32.136 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-17T04:38:32.150 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-17T04:38:32.152 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-17T04:38:32.152 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-17T04:38:32.201 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-17T04:38:32.201 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-17T04:38:32.203 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-17T04:38:32.203 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-17T04:38:32.208 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-17T04:38:32.215 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-17T04:38:32.284 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-17T04:38:32.292 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-17T04:38:32.292 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-17T04:38:32.302 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-17T04:38:32.302 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-17T04:38:32.302 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-17T04:38:32.303 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-17T04:38:32.303 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-17T04:38:32.303 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-17T04:38:32.303 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-17T04:38:32.336 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-17T04:38:32.336 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-17T04:38:32.342 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-17T04:38:32.348 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-17T04:38:32.392 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-17T04:39:32.230 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Sat Jul 19 04:39:32 EDT 2014
+2014-10-17T04:39:32.306 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Initializing Jython
+2014-10-17T04:39:34.139 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Completed Jython initialization
+2014-10-17T05:01:30.404 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-17T05:01:30.404 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-17T05:01:30.405 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-17T05:01:30.405 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-17T05:01:30.406 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-17T05:01:30.418 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-17T05:01:30.423 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-17T05:01:30.423 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-17T05:01:30.423 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-17T05:01:30.423 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-17T05:01:35.767 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-17T05:01:37.110 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T05:01:37.158 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-17T05:01:37.162 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-17T05:01:37.375 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T05:01:38.429 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-17T05:01:38.430 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-17T05:01:38.432 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-17T05:01:38.446 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-17T05:01:38.447 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-17T05:01:38.448 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-17T05:01:38.496 [main] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Adding partition p20141017_110000 to table event_time
+2014-10-17T05:01:38.565 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-17T05:01:38.567 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-17T05:01:38.568 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-17T05:01:38.565 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-17T05:01:38.574 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-17T05:01:38.577 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-17T05:01:38.635 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-17T05:01:38.661 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-17T05:01:38.680 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-17T05:01:38.681 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-17T05:01:38.696 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-17T05:01:38.699 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-17T05:01:38.699 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-17T05:01:38.699 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-17T05:01:38.699 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-17T05:01:38.699 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-17T05:01:38.699 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-17T05:01:38.699 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-17T05:01:38.705 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-17T05:01:38.741 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-17T05:01:38.749 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-17T05:02:38.593 [ZEP_EVENT_TIME_PURGER] INFO  org.zenoss.utils.dao.impl.MySqlRangePartitioner - Pruning table event_time partition p20141016_090000: prune timestamp 2014-10-16 05:02:38.593
+2014-10-17T05:02:38.619 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Sat Jul 19 05:02:38 EDT 2014
+2014-10-17T05:02:38.814 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Initializing Jython
+2014-10-17T05:02:40.476 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Completed Jython initialization
+2014-10-17T05:05:51.048 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-17T05:05:51.048 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-17T05:05:51.049 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-17T05:05:51.049 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-17T05:05:51.049 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-17T05:05:51.060 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-17T05:05:51.064 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-17T05:05:51.064 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-17T05:05:51.065 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-17T05:05:51.065 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-17T05:05:55.712 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-17T05:05:56.896 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T05:05:56.950 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-17T05:05:56.953 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-17T05:05:57.162 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T05:05:58.156 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-17T05:05:58.156 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-17T05:05:58.159 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-17T05:05:58.172 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-17T05:05:58.174 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-17T05:05:58.174 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-17T05:05:58.225 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-17T05:05:58.225 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-17T05:05:58.227 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-17T05:05:58.227 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-17T05:05:58.231 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-17T05:05:58.233 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-17T05:05:58.314 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-17T05:05:58.323 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-17T05:05:58.324 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-17T05:05:58.324 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-17T05:05:58.327 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-17T05:05:58.363 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-17T05:05:58.364 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-17T05:05:58.364 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-17T05:05:58.364 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-17T05:05:58.364 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-17T05:05:58.364 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-17T05:05:58.364 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-17T05:05:58.385 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-17T05:05:58.404 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-17T05:05:58.405 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-17T05:06:43.347 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Initializing Jython
+2014-10-17T05:06:44.905 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Completed Jython initialization
+2014-10-17T05:06:58.314 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Sat Jul 19 05:06:58 EDT 2014
+2014-10-17T05:15:09.169 [Thread-2] INFO  org.zenoss.zep.impl.Application - Scheduled tasks finished
+2014-10-17T05:15:09.170 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_summary
+2014-10-17T05:15:09.171 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_summary
+2014-10-17T05:15:09.171 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread stopped for: event_archive
+2014-10-17T05:15:09.172 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread stopped for: event_archive
+2014-10-17T05:15:09.186 [Thread-2] INFO  org.zenoss.amqp.AmqpConnectionManager - Shutting down...
+2014-10-17T05:15:09.194 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: TriggerPlugin
+2014-10-17T05:15:09.195 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFanOutPlugin
+2014-10-17T05:15:09.195 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Stopping plug-in: EventFlappingPlugin
+2014-10-17T05:15:09.195 [Thread-2] INFO  org.zenoss.zep.impl.PluginServiceImpl - Shutdown plug-ins
+2014-10-17T05:15:13.953 [main] INFO  org.zenoss.zep.dao.ConfigDao - Maximum archive days: 1000
+2014-10-17T05:15:15.208 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Attempting to connect to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T05:15:15.281 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - No external plug-ins found.
+2014-10-17T05:15:15.288 [AmqpConnectionManager] INFO  org.zenoss.amqp.impl.ConnectionFactoryImpl - No AMQP connection heartbeat
+2014-10-17T05:15:15.456 [AmqpConnectionManager] INFO  org.zenoss.amqp.AmqpConnectionManager - Connected to message broker at amqp://zenoss@localhost:5672/zenoss
+2014-10-17T05:15:16.479 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFlappingPlugin
+2014-10-17T05:15:16.480 [main] INFO  org.zenoss.zep.impl.EventFlappingPlugin - Event flapping detection plugin loading configuration
+2014-10-17T05:15:16.482 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: TriggerPlugin
+2014-10-17T05:15:16.495 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Starting plug-in: EventFanOutPlugin
+2014-10-17T05:15:16.497 [main] INFO  org.zenoss.zep.impl.PluginServiceImpl - Initialized plug-ins
+2014-10-17T05:15:16.498 [main] INFO  org.zenoss.zep.impl.Application - Initializing ZEP
+2014-10-17T05:15:16.552 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_summary
+2014-10-17T05:15:16.553 [main] INFO  org.zenoss.zep.impl.Application - Starting event aging at interval: 60000 milliseconds(s), inclusive severity: false
+2014-10-17T05:15:16.553 [INDEX_REBUILDER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexRebuilderImpl - Index rebuilding thread started for: event_archive
+2014-10-17T05:15:16.563 [main] INFO  org.zenoss.zep.impl.Application - Validating that event_summary table is in a good state
+2014-10-17T05:15:16.567 [main] INFO  org.zenoss.zep.impl.Application - Starting event archiving at interval: 60000 milliseconds(s)
+2014-10-17T05:15:16.580 [main] INFO  org.zenoss.zep.impl.Application - Starting database table optimization at interval: 720 minutes(s)
+2014-10-17T05:15:16.654 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.location (PATH)
+2014-10-17T05:15:16.654 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.device_class (PATH)
+2014-10-17T05:15:16.654 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.priority (INTEGER)
+2014-10-17T05:15:16.654 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.systems (PATH)
+2014-10-17T05:15:16.654 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.groups (PATH)
+2014-10-17T05:15:16.654 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.production_state (INTEGER)
+2014-10-17T05:15:16.654 [INDEX_REBUILDER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.IndexedDetailsConfigurationImpl - Indexed event detail: zenoss.device.ip_address (IP_ADDRESS)
+2014-10-17T05:15:16.683 [zenoss.queues.zep.zenevents] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.zenevents
+2014-10-17T05:15:16.690 [main] INFO  org.zenoss.zep.impl.Application - Completed ZEP initialization
+2014-10-17T05:15:16.693 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_summary
+2014-10-17T05:15:16.701 [zenoss.queues.zep.heartbeats] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.heartbeats
+2014-10-17T05:15:16.703 [zenoss.queues.zep.migrated.summary] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.summary
+2014-10-17T05:15:16.704 [INDEXER_EVENT_ARCHIVE] INFO  org.zenoss.zep.index.impl.EventIndexerImpl - Indexing thread started for: event_archive
+2014-10-17T05:15:16.704 [zenoss.queues.zep.migrated.archive] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.migrated.archive
+2014-10-17T05:15:16.743 [zenoss.queues.zep.modelchange] INFO  org.zenoss.amqp.AmqpConnectionManager$QueueWorker - Worker started, consuming messages on queue: zenoss.queues.zep.modelchange
+2014-10-17T05:16:02.310 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Initializing Jython
+2014-10-17T05:16:03.937 [INDEXER_EVENT_SUMMARY] INFO  org.zenoss.zep.impl.TriggerPlugin - Completed Jython initialization
+2014-10-17T05:16:16.612 [ZEP_EVENT_ARCHIVE_PURGER] INFO  org.zenoss.zep.index.impl.EventIndexDaoImpl - Purging events older than Sat Jul 19 05:16:16 EDT 2014
